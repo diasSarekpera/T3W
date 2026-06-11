@@ -1,0 +1,39 @@
+{
+  "id": "spanish-trio-8",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 8",
+    "tagline": "Apprenez à accueillir une nouvelle journée avec simplicité."
+  },
+
+  "words": [
+    {
+      "word": "Buenos",
+      "translation": "Bons",
+      "audio": "audio/buenos.mp3"
+    },
+    {
+      "word": "Días",
+      "translation": "Matin",
+      "audio": "audio/dias.mp3"
+    },
+    {
+      "word": "Sol",
+      "translation": "Soleil",
+      "audio": "audio/sol.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Buenos días, sol.",
+    "french": "Bonjour, soleil.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Buenos Días Sol",
+    "description": "Une chanson lumineuse pour commencer la journée avec douceur.",
+    "audio": "audio/song.mp3"
+  }
+}

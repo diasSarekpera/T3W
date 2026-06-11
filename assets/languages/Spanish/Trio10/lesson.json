@@ -1,0 +1,44 @@
+{
+  "id": "spanish-trio-10",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 10",
+    "tagline": "Apprenez à demander de l'aide avec politesse."
+  },
+
+  "words": [
+    {
+      "word": "Ayuda",
+      "translation": "Aide",
+      "audio": "audio/ayuda.mp3"
+    },
+    {
+      "word": "Me",
+      "translation": "Moi / Me",
+      "audio": "audio/me.mp3"
+    },
+    {
+      "word": "Por favor",
+      "translation": "S'il vous plaît",
+      "audio": "audio/por-favor.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Ayúdame, por favor.",
+    "french": "Aidez-moi, s'il vous plaît.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Ayuda Me Por Favor",
+    "description": "Une chanson douce pour apprendre à demander de l'aide avec courtoisie.",
+    "audio": "audio/song.mp3"
+  }
+}
+
+
+
+
+

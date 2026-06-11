@@ -1,0 +1,39 @@
+{
+  "id": "english-trio-3",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 3",
+    "tagline": "Apprenez à exprimer quelque chose que vous aimez."
+  },
+
+  "words": [
+    {
+      "word": "I",
+      "translation": "Je",
+      "audio": "audio/i.mp3"
+    },
+    {
+      "word": "Like",
+      "translation": "Aime",
+      "audio": "audio/like.mp3"
+    },
+    {
+      "word": "Music",
+      "translation": "Musique",
+      "audio": "audio/music.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "I like music.",
+    "french": "J'aime la musique.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "I Like Music",
+    "description": "Une chanson douce pour mémoriser l'expression de ses goûts.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "english-trio-2",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 2",
+    "tagline": "Apprenez à vous présenter simplement."
+  },
+
+  "words": [
+    {
+      "word": "I",
+      "translation": "Je",
+      "audio": "audio/i.mp3"
+    },
+    {
+      "word": "Am",
+      "translation": "Suis",
+      "audio": "audio/am.mp3"
+    },
+    {
+      "word": "Peter",
+      "translation": "Peter",
+      "audio": "audio/peter.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "I am Peter.",
+    "french": "Je suis Peter.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "I Am Peter",
+    "description": "Une chanson simple pour apprendre à se présenter en anglais.",
+    "audio": "audio/song.mp3"
+  }
+}

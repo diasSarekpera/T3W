@@ -1,0 +1,39 @@
+{
+  "id": "english-trio-6",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 6",
+    "tagline": "Apprenez à parler d'apprentissage et de progression."
+  },
+
+  "words": [
+    {
+      "word": "Read",
+      "translation": "Lire",
+      "audio": "audio/read.mp3"
+    },
+    {
+      "word": "Learn",
+      "translation": "Apprendre",
+      "audio": "audio/learn.mp3"
+    },
+    {
+      "word": "Grow",
+      "translation": "Grandir",
+      "audio": "audio/grow.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "Read, learn and grow.",
+    "french": "Lis, apprends et grandis.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Read Learn Grow",
+    "description": "Une chanson inspirante sur le plaisir d'apprendre et d'évoluer.",
+    "audio": "audio/song.mp3"
+  }
+}

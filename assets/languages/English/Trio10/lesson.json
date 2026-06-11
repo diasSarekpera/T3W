@@ -1,0 +1,40 @@
+
+{
+  "id": "english-trio-10",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 10",
+    "tagline": "Apprenez à demander de l'aide avec politesse."
+  },
+
+  "words": [
+    {
+      "word": "Help",
+      "translation": "Aider / Aide",
+      "audio": "audio/help.mp3"
+    },
+    {
+      "word": "Me",
+      "translation": "Moi / Me",
+      "audio": "audio/me.mp3"
+    },
+    {
+      "word": "Please",
+      "translation": "S'il vous plaît",
+      "audio": "audio/please.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "Please help me.",
+    "french": "S'il vous plaît, aidez-moi.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Help Me Please",
+    "description": "Une chanson douce pour apprendre à demander de l'aide avec courtoisie.",
+    "audio": "audio/song.mp3"
+  }
+}

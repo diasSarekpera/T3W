@@ -1,0 +1,39 @@
+{
+  "id": "spanish-trio-2",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 2",
+    "tagline": "Apprenez à vous présenter en espagnol."
+  },
+
+  "words": [
+    {
+      "word": "Yo",
+      "translation": "Je",
+      "audio": "audio/yo.mp3"
+    },
+    {
+      "word": "Soy",
+      "translation": "Suis",
+      "audio": "audio/soy.mp3"
+    },
+    {
+      "word": "Dias",
+      "translation": "Dias",
+      "audio": "audio/dias.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Yo soy Dias.",
+    "french": "Je suis Dias.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Yo Soy Dias",
+    "description": "Une chanson simple pour apprendre à se présenter.",
+    "audio": "audio/song.mp3"
+  }
+}

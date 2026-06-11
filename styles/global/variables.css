@@ -1,0 +1,46 @@
+/* ════════════════════════════════════════════
+   T3W – variables.css
+   Source unique des tokens de design.
+   Contient uniquement les couleurs et les polices.
+════════════════════════════════════════════ */
+
+:root {
+
+  /* ── Typographie ─────────────────────────── */
+  --font-serif : 'Cormorant Garamond', Georgia, serif;
+  --font-sans  : 'Jost', system-ui, sans-serif;
+  --font-ui    : 'DM Sans', system-ui, sans-serif;
+
+  /* ── Palette principale ──────────────────── */
+
+  /* Fonds */
+  --color-bg        : #F7F2EA;
+  --color-bg-alt    : #EFE7D8;
+  --color-surface   : #FDFAF5;
+  --color-surface-2 : #FAF7F2;
+
+  /* Or / accent */
+  --color-gold      : #9B6E2F;
+  --color-gold-light: #C4924A;
+  --color-gold-dark : #7A5220;
+  --color-gold-pale : #E8D9B8;
+  --color-gold-faint: #F0E8D4;
+
+  /* Textes */
+  --color-text-1    : #1E1208;
+  --color-text-2    : #5C3D1E;
+  --color-text-3    : #9A7250;
+  --color-text-4    : #C4A882;
+
+  /* Bruns */
+  --color-brown     : #2C1A0E;
+  --color-brown-mid : #6B4C2A;
+
+  /* Bordures */
+  --color-border     : rgba(139, 100, 58, 0.12);
+  --color-border-2   : rgba(139, 100, 58, 0.22);
+  --color-border-soft: #E2D9C8;
+
+  /* Tags / icônes */
+  --color-tag-bg    : #EDE8DE;
+}

@@ -1,0 +1,39 @@
+{
+  "id": "spanish-trio-3",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 3",
+    "tagline": "Apprenez à parler de ce que vous aimez."
+  },
+
+  "words": [
+    {
+      "word": "Me",
+      "translation": "Moi",
+      "audio": "audio/me.mp3"
+    },
+    {
+      "word": "Gusta",
+      "translation": "Aime",
+      "audio": "audio/gusta.mp3"
+    },
+    {
+      "word": "Música",
+      "translation": "Musique",
+      "audio": "audio/musica.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Me gusta la música.",
+    "french": "J'aime la musique.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Me Gusta Música",
+    "description": "Une chanson douce pour mémoriser une expression très utilisée en espagnol.",
+    "audio": "audio/song.mp3"
+  }
+}

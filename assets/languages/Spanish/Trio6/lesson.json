@@ -1,0 +1,39 @@
+{
+  "id": "spanish-trio-6",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 6",
+    "tagline": "Apprenez à parler d'apprentissage et de progression."
+  },
+
+  "words": [
+    {
+      "word": "Leer",
+      "translation": "Lire",
+      "audio": "audio/leer.mp3"
+    },
+    {
+      "word": "Aprender",
+      "translation": "Apprendre",
+      "audio": "audio/aprender.mp3"
+    },
+    {
+      "word": "Crecer",
+      "translation": "Grandir",
+      "audio": "audio/crecer.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Lee, aprende y crece.",
+    "french": "Lis, apprends et grandis.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Leer Aprender Crecer",
+    "description": "Une chanson inspirante sur le plaisir d'apprendre.",
+    "audio": "audio/song.mp3"
+  }
+}

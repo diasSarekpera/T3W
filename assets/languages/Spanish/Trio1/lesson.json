@@ -1,0 +1,39 @@
+{
+  "id": "spanish-trio-1",
+  "language": "Spanish",
+
+  "card": {
+    "title": "Trio 1",
+    "tagline": "Apprenez à saluer quelqu'un en espagnol."
+  },
+
+  "words": [
+    {
+      "word": "Hola",
+      "translation": "Bonjour",
+      "audio": "audio/hola.mp3"
+    },
+    {
+      "word": "Amigo",
+      "translation": "Ami",
+      "audio": "audio/amigo.mp3"
+    },
+    {
+      "word": "Hoy",
+      "translation": "Aujourd'hui",
+      "audio": "audio/hoy.mp3"
+    }
+  ],
+
+  "sentence": {
+    "spanish": "Hola amigo, hoy es un buen día.",
+    "french": "Bonjour ami, aujourd'hui est une belle journée.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Hola Amigo Hoy",
+    "description": "Une chanson agréable pour découvrir vos premiers mots espagnols.",
+    "audio": "audio/song.mp3"
+  }
+}

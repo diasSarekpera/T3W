@@ -1,0 +1,40 @@
+{
+  "id": "english-trio-4",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 4",
+    "tagline": "Apprenez à exprimer simplement ce que vous ressentez."
+  },
+
+  "words": [
+    {
+      "word": "I",
+      "translation": "Je",
+      "audio": "audio/i.mp3"
+    },
+    {
+      "word": "Feel",
+      "translation": "Me sens",
+      "audio": "audio/feel.mp3"
+    },
+    {
+      "word": "Happy",
+      "translation": "Heureux",
+      "audio": "audio/happy.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "I feel happy.",
+    "french": "Je me sens heureux.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "I Feel Happy",
+    "description": "Une chanson douce pour apprendre à exprimer ses émotions.",
+    "audio": "audio/song.mp3"
+  }
+}
+

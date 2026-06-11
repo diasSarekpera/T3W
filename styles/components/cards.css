@@ -1,0 +1,145 @@
+/* ════════════════════════════════════════════
+   T3W – cards.css
+   Composant carte — partagé par toutes les pages.
+   Fournit : .cards-grid, .card et ses éléments enfants.
+════════════════════════════════════════════ */
+
+/* ── Grille ──────────────────────────────── */
+
+.cards-grid {
+  display              : grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap                  : 20px;
+}
+
+/* ── Carte ───────────────────────────────── */
+
+.card {
+  background    : var(--color-surface-2);
+  border-radius : 16px;
+  border        : 1px solid var(--color-border-soft);
+  padding       : 22px 22px 18px;
+  display       : flex;
+  flex-direction: column;
+  gap           : 14px;
+  box-shadow    : 0 2px 14px rgba(80, 45, 10, 0.07);
+  cursor        : pointer;
+  transition    : box-shadow 0.22s ease, transform 0.22s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 28px rgba(80, 45, 10, 0.13);
+  transform : translateY(-2px);
+}
+
+/* ── En-tête de carte ────────────────────── */
+
+.card__header {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+}
+
+.card__tag {
+  background    : var(--color-tag-bg);
+  color         : var(--color-text-3);
+  font-family   : var(--font-ui);
+  font-size     : 10.5px;
+  font-weight   : 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding       : 5px 12px;
+  border-radius : 40px;
+}
+
+/* ── Corps de carte ──────────────────────── */
+
+.card__body {
+  display        : flex;
+  align-items    : flex-start;
+  justify-content: space-between;
+  gap            : 8px;
+  min-height     : 68px;
+}
+
+.card__text { flex: 1; }
+
+.card__title {
+  font-family  : var(--font-serif);
+  font-size    : 20px;
+  font-weight  : 400;
+  line-height  : 1.25;
+  color        : var(--color-text-1);
+  margin-bottom: 5px;
+}
+
+.card__subtitle {
+  font-family: var(--font-ui);
+  font-size  : 12px;
+  color      : var(--color-text-3);
+}
+
+.card__leaf {
+  flex-shrink: 0;
+  width      : 38px;
+  opacity    : 0.85;
+  margin-top : 2px;
+  align-self : center;
+}
+.card__leaf svg { width: 100%; height: auto; }
+
+/* ── Pied de carte ───────────────────────── */
+
+.card__footer {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+  margin-top     : 2px;
+}
+
+.card__icon-btn {
+  width          : 34px;
+  height         : 34px;
+  border-radius  : 50%;
+  background     : var(--color-tag-bg);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  color          : var(--color-gold);
+  transition     : background 0.15s ease;
+}
+.card__icon-btn:hover { background: #ddd3be; }
+.card__icon-btn svg {
+  width : 15px;
+  height: 15px;
+}
+
+.card__arrow {
+  width          : 34px;
+  height         : 34px;
+  border-radius  : 50%;
+  border         : 1.5px solid var(--color-border-soft);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  color          : var(--color-text-2);
+  transition     : background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.card__arrow:hover {
+  background  : var(--color-gold);
+  border-color: var(--color-gold);
+  color       : #fff;
+}
+.card__arrow svg {
+  width : 15px;
+  height: 15px;
+}
+
+/* ── Responsive ──────────────────────────── */
+
+@media (max-width: 1024px) {
+  .cards-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .cards-grid { grid-template-columns: 1fr; }
+}

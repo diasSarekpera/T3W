@@ -1,0 +1,39 @@
+{
+  "id": "english-trio-7",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 7",
+    "tagline": "Apprenez à parler de ce qui vous est cher."
+  },
+
+  "words": [
+    {
+      "word": "My",
+      "translation": "Mon / Ma",
+      "audio": "audio/my.mp3"
+    },
+    {
+      "word": "Family",
+      "translation": "Famille",
+      "audio": "audio/family.mp3"
+    },
+    {
+      "word": "Home",
+      "translation": "Maison",
+      "audio": "audio/home.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "My family is home.",
+    "french": "Ma famille est à la maison.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "My Family Home",
+    "description": "Une chanson chaleureuse autour de la famille et du foyer.",
+    "audio": "audio/song.mp3"
+  }
+}

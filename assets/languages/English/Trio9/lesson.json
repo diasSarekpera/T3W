@@ -1,0 +1,40 @@
+{
+  "id": "english-trio-9",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 9",
+    "tagline": "Apprenez à remercier et partager de la gentillesse."
+  },
+
+  "words": [
+    {
+      "word": "Thank",
+      "translation": "Remercier",
+      "audio": "audio/thank.mp3"
+    },
+    {
+      "word": "You",
+      "translation": "Vous / Toi",
+      "audio": "audio/you.mp3"
+    },
+    {
+      "word": "Smile",
+      "translation": "Sourire",
+      "audio": "audio/smile.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "Thank you for your smile.",
+    "french": "Merci pour votre sourire.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Thank You Smile",
+    "description": "Une chanson chaleureuse pour apprendre à remercier avec le sourire.",
+    "audio": "audio/song.mp3"
+  }
+}
+

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="T3W – The 3 Words. Apprendre une langue, trois mots à la fois. Anglais et espagnol pour francophones." />
+  <title>T3W - The 3 Words</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles/pages/home/main.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════ -->
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <a href="/" class="nav-logo" aria-label="T3W – Accueil">
+      <span class="nav-logo-mark"><strong>T</strong>3<strong>W</strong></span>
+      <span class="nav-logo-sub">The 3 Words</span>
+    </a>
+
+    <div class="nav-links" id="nav-links">
+      <a href="/">Accueil</a>
+      <a href="/pages/cartes.html">Cartes</a>
+      <a href="#about">La méthode</a>
+      <a href="#learn">Apprendre</a>
+    </div>
+
+    <div class="nav-actions">
+      <div class="nav-langs" aria-label="Langues disponibles">
+        <span class="nav-lang-badge">🇬🇧 Anglais</span>
+        <span class="nav-lang-sep" aria-hidden="true">·</span>
+        <span class="nav-lang-badge">🇪🇸 Espagnol</span>
+      </div>
+      <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ════════════════════════════════
+       HERO
+  ════════════════════════════════ -->
+  <section class="hero" aria-label="Introduction">
+
+    <!-- Colonne gauche -->
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <div class="hero-eyebrow-line" aria-hidden="true"></div>
+        <span class="hero-eyebrow-text">Méthode T3W</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-title__line1">Apprendre,</span>
+        <span class="hero-title__line2">3 mots à la fois.</span>
+      </h1>
+
+      <div class="hero-divider" aria-hidden="true">
+        <div class="hero-divider-line"></div>
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+          <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/>
+        </svg>
+        <div class="hero-divider-line"></div>
+      </div>
+
+      <p class="hero-desc">
+        T3W est une méthode d'apprentissage douce et progressive. Chaque leçon
+        contient exactement 3 mots — avec leur traduction, leur audio, une phrase
+        pour les contextualiser et une mélodie pour les ancrer durablement.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="/pages/cartes.html" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+          Commencer à apprendre
+        </a>
+        <a href="#about" class="btn-ghost">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 8v4M12 16h.01"/>
+          </svg>
+          La méthode
+        </a>
+      </div>
+    </div>
+
+    <!-- Colonne droite -->
+    <div class="hero-right" aria-hidden="true">
+      <div class="hero-image-wrapper">
+        <div class="hero-img" role="img" aria-label="Illustration de la méthode T3W"></div>
+        <div class="hero-img-overlay"></div>
+      </div>
+
+      <!-- Cartes de mots flottantes -->
+      <div class="word-card word-card--top">
+        <span class="wc-lang">English</span>
+        <span class="wc-word">Hello</span>
+        <span class="wc-trans">Bonjour</span>
+      </div>
+      <div class="word-card word-card--mid">
+        <span class="wc-lang">Spanish</span>
+        <span class="wc-word">Amigo</span>
+        <span class="wc-trans">Ami</span>
+      </div>
+      <div class="word-card word-card--bottom">
+        <span class="wc-lang">English</span>
+        <span class="wc-word">Today</span>
+        <span class="wc-trans">Aujourd'hui</span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ════════════════════════════════
+       LA MÉTHODE
+  ════════════════════════════════ -->
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="about__deco-ring" aria-hidden="true"></div>
+
+    <div class="section-eyebrow">
+      <div class="section-eyebrow__line" aria-hidden="true"></div>
+      <span class="section-eyebrow__text">La méthode</span>
+    </div>
+
+    <div class="about__content">
+      <!-- Gauche -->
+      <div class="about__left">
+        <span class="about__label">Philosophie</span>
+        <h2 class="about__title" id="about-title">
+          Moins,<br>
+          <em>c'est mieux.</em>
+        </h2>
+        <p class="about__intro">
+          Les méthodes traditionnelles submergent l'apprenant. T3W part du
+          principe inverse : apprendre peu, mais apprendre vraiment. Trois mots
+          à la fois, ancrés par le son, le contexte et la mélodie.
+        </p>
+        <blockquote class="about__quote">
+          <p class="about__quote-text">
+            La répétition crée la familiarité. La mélodie crée le souvenir.
+          </p>
+          <span class="about__quote-source">— Principe T3W</span>
+        </blockquote>
+      </div>
+
+      <!-- Droite -->
+      <div class="about__right">
+        <span class="about__pillars-label">Les 3 piliers</span>
+
+        <div class="pillar">
+          <span class="pillar__number">01</span>
+          <div>
+            <h3 class="pillar__title">Écouter</h3>
+            <p class="pillar__desc">Chaque mot dispose de son propre audio. Tu entends la prononciation correcte dès le début, avant même d'avoir mémorisé l'orthographe.</p>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar__number">02</span>
+          <div>
+            <h3 class="pillar__title">Comprendre</h3>
+            <p class="pillar__desc">Une phrase d'exemple relie les 3 mots dans un contexte réel. Le sens devient immédiatement clair et mémorable.</p>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar__number">03</span>
+          <div>
+            <h3 class="pillar__title">Retenir</h3>
+            <p class="pillar__desc">Une chanson douce reprend les 3 mots et la phrase. La musique transforme l'apprentissage en mémoire à long terme.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════
+       APERÇU DES CARTES
+  ════════════════════════════════ -->
+  <section class="learn" id="learn" aria-labelledby="learn-title">
+
+    <div class="learn__header">
+      <div class="learn__eyebrow">
+        <svg class="learn__eyebrow-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/>
+        </svg>
+        Cartes disponibles
+      </div>
+      <div class="learn__title">
+        <span class="learn__title-main" id="learn-title">Choisis ta première</span>
+        <span class="learn__title-accent">leçon.</span>
+      </div>
+      <p class="learn__desc">
+        Chaque carte est une mini-leçon complète. Clique sur une carte pour
+        commencer ta session d'apprentissage.
+      </p>
+    </div>
+
+    <!-- Grille générée dynamiquement par home.js -->
+    <div class="cards-grid" id="home-cards-grid" aria-live="polite" aria-label="Aperçu des cartes">
+      <!-- Squelettes de chargement -->
+      <div class="card card--skeleton" aria-hidden="true"></div>
+      <div class="card card--skeleton" aria-hidden="true"></div>
+      <div class="card card--skeleton" aria-hidden="true"></div>
+    </div>
+
+    <div class="learn__cta">
+      <a href="/pages/cartes.html" class="btn-outline-dark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="3" y="14" width="7" height="7" rx="1"/>
+          <rect x="14" y="14" width="7" height="7" rx="1"/>
+        </svg>
+        Voir toutes les cartes
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- ════════════════════════════════
+       FOOTER
+  ════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__top">
+
+      <!-- Colonne 1 — Marque -->
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="T3W – Accueil">
+          <div class="footer__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/></svg>
+          </div>
+          <span class="footer__logo-name">T<span>3</span>W</span>
+        </a>
+        <p class="footer__tagline">The 3 Words – Apprendre une langue, trois mots à la fois.</p>
+        <div class="footer__social" aria-label="Réseaux sociaux">
+          <a href="#" class="footer__social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="footer__social-btn" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.01a8.16 8.16 0 0 0 4.78 1.52V7.07a4.85 4.85 0 0 1-1.01-.38z"/></svg>
+          </a>
+          <a href="#" class="footer__social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.58 7.19c-.23-.86-.91-1.54-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.42c-.86.23-1.54.91-1.77 1.77C2 8.75 2 12 2 12s0 3.25.42 4.81c.23.86.91 1.54 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.81-.42c.86-.23 1.54-.91 1.77-1.77C22 15.25 22 12 22 12s0-3.25-.42-4.81zM10 15V9l5.2 3-5.2 3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Colonne 2 — Apprendre -->
+      <div>
+        <p class="footer__col-title">Apprendre</p>
+        <ul class="footer__links">
+          <li><a href="/pages/cartes.html">Anglais → Français</a></li>
+          <li><a href="/pages/cartes.html">Espagnol → Français</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 3 — Plateforme -->
+      <div>
+        <p class="footer__col-title">Plateforme</p>
+        <ul class="footer__links">
+          <li><a href="#about">La méthode</a></li>
+          <li><a href="#about">À propos de T3W</a></li>
+          <li><a href="/pages/cartes.html">Explorer les cartes</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 4 — Contact -->
+      <div>
+        <p class="footer__col-title">Contact</p>
+        <ul class="footer__links">
+          <li><a href="#">Nous contacter</a></li>
+          <li><a href="#">Signaler un problème</a></li>
+          <li><a href="#">Partenariats</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <span class="footer__copy">© 2025 T3W – The 3 Words. Tous droits réservés.</span>
+      <nav class="footer__legal" aria-label="Mentions légales">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Conditions d'utilisation</a>
+        <a href="#">Cookies</a>
+      </nav>
+      <div class="footer__badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/></svg>
+        Conçu avec soin
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts : registre → utilitaires → rendu → page -->
+  <!-- ✅ Correction : "assests" → "assets" -->
+  <script src="/assets/languages/registry.js"></script>
+  <script src="/scripts/lessons.js"></script>
+  <script src="/scripts/cards-renderer.js"></script>
+  <script src="/scripts/home.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,341 @@
+/* ─────────────────────────────────────────
+   T3W – learn-section-exact.css
+   Reproduction fidèle du mockup
+───────────────────────────────────────── */
+
+/* ── Tokens ── */
+:root {
+  --bg:           #f5f0e8;
+  --bg-card:      #faf7f2;
+  --gold:         #b8892e;
+  --gold-btn:     #a07828;
+  --gold-light:   #c8a96e;
+  --brown:        #2c1a0e;
+  --brown-mid:    #6b4c2a;
+  --text:         #3d2b1a;
+  --text-muted:   #7a5c3e;
+  --tag-bg:       #ede8de;
+  --icon-bg:      #ede8de;
+  --border:       #ddd0bc;
+  --radius-card:  16px;
+  --radius-pill:  40px;
+  --shadow-card:  0 2px 14px rgba(80,45,10,0.07);
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ── SECTION ── */
+.learn {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 52px 60px 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── DECORATIVE LEAF (absolute top right) ── */
+.learn__deco-leaf {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 160px;
+  pointer-events: none;
+  z-index: 0;
+}
+.learn__deco-leaf svg { width: 100%; height: auto; }
+
+/* ── HEADER ── */
+.learn__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 44px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Left side */
+.learn__header-left {
+  flex: 0 0 auto;
+  max-width: 500px;
+}
+
+/* Eyebrow */
+.learn__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.eyebrow-icon {
+  width: 15px;
+  height: 15px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+/* Title */
+.learn__title {
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.title-black {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 4.5vw, 54px);
+  font-weight: 700;
+  color: var(--brown);
+  display: block;
+}
+.title-gold {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 4.5vw, 54px);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--gold);
+  display: block;
+}
+
+/* Description */
+.learn__desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  font-weight: 400;
+}
+
+/* ── FEATURE PILLS (right) ── */
+.learn__features {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: flex-start;
+  padding-top: 8px;
+  flex-shrink: 0;
+}
+
+.feature-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 110px;
+}
+
+.feature-pill__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--tag-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brown);
+}
+.feature-pill__icon svg { width: 24px; height: 24px; }
+
+.feature-pill__title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brown);
+}
+.feature-pill__desc {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ── CARDS GRID ── */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 44px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── SINGLE CARD ── */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border);
+  padding: 22px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.22s ease, transform 0.22s ease;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 6px 28px rgba(80,45,10,0.13);
+  transform: translateY(-2px);
+}
+
+/* Header row */
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__tag {
+  background: var(--tag-bg);
+  color: var(--text-muted);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+}
+.card__bookmark {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  opacity: 0.5;
+  padding: 2px;
+  transition: opacity 0.15s;
+  line-height: 0;
+}
+.card__bookmark:hover { opacity: 1; }
+.card__bookmark svg { width: 17px; height: 17px; display: block; }
+
+/* Body */
+.card__body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 68px;
+}
+.card__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--brown);
+  margin-bottom: 5px;
+}
+.card__subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+.card__leaf {
+  flex-shrink: 0;
+  width: 40px;
+  opacity: 0.85;
+  margin-top: 2px;
+  align-self: center;
+}
+.card__leaf svg { width: 100%; height: auto; }
+
+/* Footer row */
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.card__icons {
+  display: flex;
+  gap: 8px;
+}
+.card__icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--icon-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.card__icon-btn:hover { background: #ddd3be; }
+.card__icon-btn svg { width: 16px; height: 16px; }
+
+.card__arrow {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--brown-mid);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.card__arrow:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #fff;
+}
+.card__arrow svg { width: 16px; height: 16px; }
+
+/* ── CTA ── */
+.learn__cta {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 44px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--gold-light);
+  background: transparent;
+  color: var(--gold-btn);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.cta-btn:hover {
+  background: var(--gold-btn);
+  color: #fff;
+}
+.cta-btn__icon {
+  width: 17px;
+  height: 17px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+  .learn { padding: 40px 32px 52px; }
+  .learn__header { flex-wrap: wrap; gap: 28px; }
+  .learn__header-left { max-width: 100%; }
+  .learn__features { flex-wrap: wrap; gap: 20px; justify-content: flex-start; }
+  .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .learn__deco-leaf { display: none; }
+}
+
+@media (max-width: 640px) {
+  .learn { padding: 28px 20px 40px; }
+  .cards-grid { grid-template-columns: 1fr; }
+  .learn__features { flex-direction: row; flex-wrap: wrap; }
+}

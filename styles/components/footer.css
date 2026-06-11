@@ -1,0 +1,187 @@
+/* ════════════════════════════════════════════
+   T3W – footer.css
+   Footer partagé par toutes les pages
+════════════════════════════════════════════ */
+
+.footer {
+  background: var(--color-brown);
+  color     : rgba(255, 255, 255, 0.75);
+}
+
+/* ── Partie haute ────────────────────────── */
+
+.footer__top {
+  max-width    : 1280px;
+  margin       : 0 auto;
+  padding      : 60px 60px 48px;
+  display      : grid;
+  grid-template-columns: 1.8fr 1fr 1fr 1fr;
+  gap          : 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ── Colonne marque ──────────────────────── */
+
+.footer__brand {
+  display       : flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  display      : flex;
+  align-items  : center;
+  gap          : 9px;
+  margin-bottom: 16px;
+}
+
+.footer__logo-icon {
+  width          : 32px;
+  height         : 32px;
+  border-radius  : 8px;
+  background     : rgba(255, 255, 255, 0.1);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  flex-shrink    : 0;
+}
+.footer__logo-icon svg {
+  width : 16px;
+  height: 16px;
+  color : var(--color-gold-light);
+}
+
+.footer__logo-name {
+  font-family  : var(--font-serif);
+  font-size    : 22px;
+  font-weight  : 600;
+  color        : #fff;
+  letter-spacing: 1px;
+}
+.footer__logo-name span { color: var(--color-gold-light); }
+
+.footer__tagline {
+  font-family  : var(--font-ui);
+  font-size    : 13px;
+  font-weight  : 300;
+  line-height  : 1.7;
+  color        : rgba(255, 255, 255, 0.5);
+  max-width    : 240px;
+  margin-bottom: 32px;
+}
+
+/* ── Réseaux sociaux ─────────────────────── */
+
+.footer__social {
+  display: flex;
+  gap    : 8px;
+}
+
+.footer__social-btn {
+  width          : 36px;
+  height         : 36px;
+  border-radius  : 50%;
+  border         : 1px solid rgba(255, 255, 255, 0.12);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  color          : rgba(255, 255, 255, 0.5);
+  transition     : border-color 0.15s ease, color 0.15s ease;
+}
+.footer__social-btn:hover {
+  border-color: var(--color-gold-light);
+  color       : var(--color-gold-light);
+}
+.footer__social-btn svg {
+  width : 15px;
+  height: 15px;
+}
+
+/* ── Colonnes de liens ───────────────────── */
+
+.footer__col-title {
+  font-family   : var(--font-ui);
+  font-size     : 10.5px;
+  font-weight   : 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color         : rgba(255, 255, 255, 0.35);
+  margin-bottom : 20px;
+}
+
+.footer__links {
+  display       : flex;
+  flex-direction: column;
+  gap           : 10px;
+}
+
+.footer__links a {
+  font-family: var(--font-ui);
+  font-size  : 13.5px;
+  font-weight: 300;
+  color      : rgba(255, 255, 255, 0.6);
+  transition : color 0.15s ease;
+}
+.footer__links a:hover { color: #fff; }
+
+/* ── Partie basse ────────────────────────── */
+
+.footer__bottom {
+  max-width      : 1280px;
+  margin         : 0 auto;
+  padding        : 20px 60px;
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+  gap            : 20px;
+}
+
+.footer__copy {
+  font-family: var(--font-ui);
+  font-size  : 12px;
+  font-weight: 300;
+  color      : rgba(255, 255, 255, 0.3);
+}
+
+.footer__legal {
+  display: flex;
+  gap    : 20px;
+}
+
+.footer__legal a {
+  font-family: var(--font-ui);
+  font-size  : 12px;
+  color      : rgba(255, 255, 255, 0.3);
+  transition : color 0.15s ease;
+}
+.footer__legal a:hover { color: rgba(255, 255, 255, 0.6); }
+
+.footer__badge {
+  display    : flex;
+  align-items: center;
+  gap        : 6px;
+  font-family: var(--font-ui);
+  font-size  : 11px;
+  color      : rgba(255, 255, 255, 0.25);
+}
+.footer__badge svg {
+  width  : 12px;
+  height : 12px;
+  color  : var(--color-gold-light);
+  opacity: 0.6;
+}
+
+/* ── Responsive ──────────────────────────── */
+
+@media (max-width: 1024px) {
+  .footer__top {
+    padding               : 48px 32px 36px;
+    grid-template-columns : 1fr 1fr;
+    gap                   : 36px;
+  }
+  .footer__bottom { padding: 20px 32px; }
+}
+
+@media (max-width: 640px) {
+  .footer__top    { grid-template-columns: 1fr; padding: 36px 20px 28px; }
+  .footer__bottom { padding: 16px 20px; flex-wrap: wrap; gap: 10px; }
+}

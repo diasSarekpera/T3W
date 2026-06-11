@@ -1,0 +1,236 @@
+/* ════════════════════════════════════════════
+   T3W – about.css
+   Section "La méthode" de la page d'accueil
+════════════════════════════════════════════ */
+
+/* ── Conteneur ───────────────────────────── */
+
+.about {
+  background: var(--color-bg);
+  padding   : 100px 60px 120px;
+  max-width : 1200px;
+  margin    : 0 auto;
+  position  : relative;
+}
+
+/* ── Décoration anneau ───────────────────── */
+
+.about__deco-ring {
+  position     : absolute;
+  top          : 60px;
+  right        : -20px;
+  width        : 200px;
+  height       : 200px;
+  border-radius: 50%;
+  border       : 1px solid var(--color-border-soft);
+  opacity      : 0.5;
+  pointer-events: none;
+}
+.about__deco-ring::after {
+  content      : '';
+  position     : absolute;
+  inset        : 20px;
+  border-radius: 50%;
+  border       : 1px solid var(--color-border-soft);
+}
+
+/* ── Eyebrow section ─────────────────────── */
+
+.section-eyebrow {
+  display      : flex;
+  align-items  : center;
+  gap          : 14px;
+  margin-bottom: 52px;
+  animation    : fadeUp 0.8s ease 0.1s both;
+}
+.section-eyebrow__line {
+  width     : 40px;
+  height    : 1px;
+  background: var(--color-gold);
+}
+.section-eyebrow__text {
+  font-family   : var(--font-sans);
+  font-size     : 10px;
+  font-weight   : 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color         : var(--color-gold);
+}
+
+/* ── Grille de contenu ───────────────────── */
+
+.about__content {
+  display              : grid;
+  grid-template-columns: 1fr 1fr;
+  gap                  : 0;
+  align-items          : start;
+}
+
+/* ── Colonne gauche — philosophie ────────── */
+
+.about__left {
+  padding-right: 80px;
+  border-right : 1px solid var(--color-border-soft);
+  animation    : fadeUp 0.9s ease 0.25s both;
+}
+
+.about__label {
+  display       : block;
+  font-family   : var(--font-sans);
+  font-size     : 10px;
+  font-weight   : 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color         : var(--color-text-3);
+  margin-bottom : 24px;
+}
+
+.about__title {
+  font-family  : var(--font-serif);
+  font-size    : clamp(48px, 5.5vw, 72px);
+  font-weight  : 300;
+  line-height  : 1.08;
+  color        : var(--color-text-1);
+  margin-bottom: 36px;
+}
+.about__title em {
+  font-style: italic;
+  color     : var(--color-gold);
+}
+
+.about__intro {
+  font-family  : var(--font-sans);
+  font-size    : 15px;
+  font-weight  : 300;
+  line-height  : 1.85;
+  color        : var(--color-text-3);
+  max-width    : 400px;
+  margin-bottom: 52px;
+}
+
+/* Citation */
+.about__quote {
+  border-left  : 2px solid var(--color-gold-pale);
+  padding      : 24px 28px;
+  background   : var(--color-surface);
+  border-radius: 0 16px 16px 0;
+  position     : relative;
+}
+.about__quote::before {
+  content    : '"';
+  font-family: var(--font-serif);
+  font-size  : 72px;
+  color      : var(--color-gold-pale);
+  position   : absolute;
+  top        : -10px;
+  left       : 12px;
+  line-height: 1;
+}
+.about__quote-text {
+  font-family : var(--font-serif);
+  font-size   : 19px;
+  font-style  : italic;
+  font-weight : 300;
+  line-height : 1.6;
+  color       : var(--color-text-1);
+  padding-left: 8px;
+}
+.about__quote-source {
+  display       : block;
+  font-family   : var(--font-sans);
+  font-size     : 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color         : var(--color-text-3);
+  margin-top    : 14px;
+  padding-left  : 8px;
+}
+
+/* ── Colonne droite — piliers ────────────── */
+
+.about__right {
+  padding-left: 80px;
+  animation   : fadeUp 0.9s ease 0.4s both;
+}
+
+.about__pillars-label {
+  display       : block;
+  font-family   : var(--font-sans);
+  font-size     : 10px;
+  font-weight   : 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color         : var(--color-text-3);
+  margin-bottom : 40px;
+}
+
+/* Pilier individuel */
+.pillar {
+  display              : grid;
+  grid-template-columns: 44px 1fr;
+  gap                  : 0 20px;
+  padding              : 28px 0;
+  border-bottom        : 1px solid var(--color-border-soft);
+  transition           : all 0.4s ease;
+}
+.pillar:first-of-type { border-top: 1px solid var(--color-border-soft); }
+
+.pillar:hover .pillar__number,
+.pillar:hover .pillar__title { color: var(--color-gold); }
+
+.pillar__number {
+  font-family   : var(--font-serif);
+  font-size     : 13px;
+  color         : var(--color-gold-pale);
+  padding-top   : 5px;
+  letter-spacing: 0.05em;
+  align-self    : start;
+  transition    : color 0.22s ease;
+}
+
+.pillar__title {
+  font-family  : var(--font-serif);
+  font-size    : 22px;
+  font-weight  : 400;
+  color        : var(--color-text-1);
+  margin-bottom: 8px;
+  line-height  : 1.2;
+  transition   : color 0.22s ease;
+}
+
+.pillar__desc {
+  font-family: var(--font-sans);
+  font-size  : 13.5px;
+  font-weight: 300;
+  line-height: 1.75;
+  color      : var(--color-text-3);
+}
+
+/* ── Responsive ──────────────────────────── */
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 72px 36px 80px;
+  }
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+  .about__left {
+    padding-right : 0;
+    border-right  : none;
+    border-bottom : 1px solid var(--color-border-soft);
+    padding-bottom: 80px;
+    margin-bottom : 80px;
+  }
+  .about__right {
+    padding-left: 0;
+  }
+  .about__deco-ring { display: none; }
+}
+
+@media (max-width: 640px) {
+  .about {
+    padding: 52px 24px 64px;
+  }
+  .about__title { font-size: clamp(38px, 10vw, 58px); }
+}

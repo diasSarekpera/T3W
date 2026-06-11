@@ -1,0 +1,39 @@
+{
+  "id": "english-trio-8",
+  "language": "English",
+
+  "card": {
+    "title": "Trio 8",
+    "tagline": "Apprenez à accueillir une nouvelle journée avec simplicité."
+  },
+
+  "words": [
+    {
+      "word": "Good",
+      "translation": "Bon",
+      "audio": "audio/good.mp3"
+    },
+    {
+      "word": "Morning",
+      "translation": "Matin",
+      "audio": "audio/morning.mp3"
+    },
+    {
+      "word": "Sun",
+      "translation": "Soleil",
+      "audio": "audio/sun.mp3"
+    }
+  ],
+
+  "sentence": {
+    "english": "Good morning, sun.",
+    "french": "Bonjour, soleil.",
+    "audio": "audio/sentence.mp3"
+  },
+
+  "song": {
+    "title": "Good Morning Sun",
+    "description": "Une chanson lumineuse pour commencer la journée avec douceur.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,20 @@
+/* ════════════════════════════════════════════
+   T3W – main.css  (page d'accueil)
+   Point d'entrée unique — importer CE fichier
+   dans le <head> de index.html uniquement.
+════════════════════════════════════════════ */
+
+/* ── Fondations globales ─────────────────── */
+@import url('../../global/variables.css');
+@import url('../../global/reset.css');
+@import url('../../global/base.css');
+
+/* ── Composants partagés ─────────────────── */
+@import url('../../components/navbar.css');
+@import url('../../components/cards.css');
+@import url('../../components/footer.css');
+
+/* ── Sections de la page d'accueil ──────── */
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./learn.css');
