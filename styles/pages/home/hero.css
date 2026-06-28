@@ -253,34 +253,4 @@
   line-height: 1.5;
 }
 
-/* ── Responsive ──────────────────────────── */
 
-@media (max-width: 960px) {
-  .hero {
-    grid-template-columns: 1fr;
-    min-height           : auto;
-  }
-  .hero-right {
-    order     : -1;
-    height    : 48dvh;
-    min-height: 300px;
-  }
-  .hero-left {
-    padding    : 40px 24px 52px;
-    text-align : center;
-    align-items: center;
-  }
-  .hero-eyebrow,
-  .hero-divider,
-  .hero-cta-group { justify-content: center; }
-  .hero-desc      { text-align: center; }
-
-  .word-card--mid { display: none; }
-}
-
-@media (max-width: 480px) {
-  .hero-title__line1,
-  .hero-title__line2 { font-size: 2.6rem; }
-  .word-card--top,
-  .word-card--bottom { display: none; }
-}

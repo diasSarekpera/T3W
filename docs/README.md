@@ -62,7 +62,7 @@ assets/
 
 ### 3. Enregistrer le trio dans le registre
 
-Ouvrir `assets/lessons/registry.js` et ajouter une entrée :
+Ouvrir `assets/languages/registry.js` et ajouter une entrée :
 
 ```js
 {
@@ -70,7 +70,7 @@ Ouvrir `assets/lessons/registry.js` et ajouter une entrée :
   language: 'English',
   flag    : '🇬🇧',
   langCode: 'en',
-  basePath: '/assets/lessons/English/Trio4'
+  basePath: '/assets/languages/English/Trio4'
 }
 ```
 
@@ -126,3 +126,6 @@ C'est tout. Le site affichera automatiquement la nouvelle carte sur la page d'ac
 ## Convention CSS
 
 Seules les couleurs (`--color-*`, `--c-*`) et les polices (`--font-*`) peuvent être définies comme variables CSS. Toutes les autres valeurs (border-radius, padding, transitions, shadows…) sont écrites directement dans les règles.
+
+
+

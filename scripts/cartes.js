@@ -50,58 +50,54 @@
     }).join('');
 
     main.innerHTML = html || `<p class="load-empty">Aucune carte disponible.</p>`;
-
-    // Réattacher l'écouteur audio après chaque re-rendu
-    initPreviewAudio();
   }
 
   // ── Audio preview des cartes ───────────────
+  // Un seul écouteur permanent sur main (délégation d'événements)
   let currentAudio = null;
   let currentBtn   = null;
 
-  function initPreviewAudio() {
-    main.addEventListener('click', (e) => {
-      const btn = e.target.closest('.btn-card-preview[data-audio]');
-      if (!btn) return;
+  main.addEventListener('click', (e) => {
+    const btn = e.target.closest('.btn-card-preview[data-audio]');
+    if (!btn) return;
 
-      const src = btn.dataset.audio;
+    const src = btn.dataset.audio;
 
-      // Même bouton → toggle pause/play
-      if (currentBtn === btn && currentAudio) {
-        if (currentAudio.paused) {
-          currentAudio.play();
-          btn.classList.add('playing');
-        } else {
-          currentAudio.pause();
-          btn.classList.remove('playing');
-        }
-        return;
-      }
-
-      // Arrêt de l'audio précédent
-      if (currentAudio) {
+    // Même bouton → toggle pause/play
+    if (currentBtn === btn && currentAudio) {
+      if (currentAudio.paused) {
+        currentAudio.play();
+        btn.classList.add('playing');
+      } else {
         currentAudio.pause();
-        currentAudio.currentTime = 0;
-      }
-      if (currentBtn) currentBtn.classList.remove('playing');
-
-      // Nouvel audio
-      const audio = new Audio(src);
-      currentAudio = audio;
-      currentBtn   = btn;
-
-      audio.play().catch(() => {
-        // Fichier absent en dev — pas d'erreur bloquante
-      });
-      btn.classList.add('playing');
-
-      audio.addEventListener('ended', () => {
         btn.classList.remove('playing');
-        currentAudio = null;
-        currentBtn   = null;
-      });
-    }, { once: true }); // once:true pour éviter les doublons après re-rendu
-  }
+      }
+      return;
+    }
+
+    // Arrêt de l'audio précédent
+    if (currentAudio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+    }
+    if (currentBtn) currentBtn.classList.remove('playing');
+
+    // Nouvel audio
+    const audio = new Audio(src);
+    currentAudio = audio;
+    currentBtn   = btn;
+
+    audio.play().catch(() => {
+      // Fichier absent en dev — pas d'erreur bloquante
+    });
+    btn.classList.add('playing');
+
+    audio.addEventListener('ended', () => {
+      btn.classList.remove('playing');
+      currentAudio = null;
+      currentBtn   = null;
+    });
+  });
 
   // ── Filtre par langue ──────────────────────
   window.filterLang = function (btn, code) {

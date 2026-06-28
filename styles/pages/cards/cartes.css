@@ -323,31 +323,6 @@
   border-radius : 40px;
 }
 
-/* ════════════════════════════════════════════
-   RESPONSIVE
-════════════════════════════════════════════ */
 
-@media (max-width: 1024px) {
-  .header__inner,
-  .page-hero,
-  .filter-bar__inner,
-  .main { padding-left: 32px; padding-right: 32px; }
 
-  .page-hero { flex-wrap: wrap; }
-}
 
-@media (max-width: 960px) {
-  .header__nav { display: none; }
-}
-
-@media (max-width: 640px) {
-  .header__inner,
-  .page-hero,
-  .filter-bar__inner,
-  .main { padding-left: 20px; padding-right: 20px; }
-
-  .page-hero        { padding-top: 36px; padding-bottom: 36px; }
-  .page-hero__stats { gap: 20px; }
-  .lang-header      { flex-wrap: wrap; gap: 12px; }
-  .nav-langs        { display: none; }
-}
