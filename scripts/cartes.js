@@ -34,7 +34,7 @@
       const cards = items.map(l => renderCard(l, 'library')).join('');
       return `
         <section class="lang-section" data-lang-section="${lang.toLowerCase()}">
-          <div class="lang-header">
+          <div class="lang-header" data-reveal>
             <div class="lang-header__left">
               <div class="lang-flag" aria-hidden="true">${meta.flag}</div>
               <div>
@@ -44,12 +44,13 @@
             </div>
             <span class="lang-count">${items.length} carte${items.length > 1 ? 's' : ''}</span>
           </div>
-          <div class="cards-grid">${cards}</div>
+          <div class="cards-grid" data-reveal-group>${cards}</div>
         </section>
       `.trim();
     }).join('');
 
     main.innerHTML = html || `<p class="load-empty">Aucune carte disponible.</p>`;
+    if (window.T3WMotion) window.T3WMotion.observe(main);
   }
 
   // ── Audio preview des cartes ───────────────

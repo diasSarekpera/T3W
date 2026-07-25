@@ -93,16 +93,46 @@
   font-size     : 15px;
   font-weight   : 400;
   color         : var(--color-gold-dark);
-  transition    : background 0.22s ease, color 0.22s ease, border-color 0.22s ease;
+  transition    : background var(--dur-hover) var(--ease-standard),
+                   color var(--dur-hover) var(--ease-standard),
+                   border-color var(--dur-hover) var(--ease-standard),
+                   transform var(--dur-hover) var(--ease-standard);
 }
 .btn-outline-dark:hover {
   background  : var(--color-gold-dark);
   border-color: var(--color-gold-dark);
   color       : #fff;
 }
+.btn-outline-dark:active { transform: scale(0.98); }
 .btn-outline-dark svg {
-  width : 17px;
-  height: 17px;
+  width     : 17px;
+  height    : 17px;
+  transition: transform var(--dur-hover) var(--ease-standard);
+}
+.btn-outline-dark:hover svg { transform: translateX(2px); }
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+@media (max-width: 1280px) {
+  .learn { padding: 72px 40px 88px; }
 }
 
+@media (max-width: 900px) {
+  .learn { padding: 64px 24px 72px; }
+  .learn__header { margin-bottom: 28px; }
+  .learn__desc { max-width: 100%; }
+}
+
+@media (max-width: 560px) {
+  .learn { padding: 52px 18px 60px; }
+
+  /* CTA pleine largeur : cible tactile confortable */
+  .btn-outline-dark {
+    width: 100%;
+    justify-content: center;
+    min-height: 48px;
+  }
+}
 

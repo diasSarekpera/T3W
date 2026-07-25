@@ -15,6 +15,7 @@
     const preview = lessons.slice(0, CARDS_LIMIT);
 
     grid.innerHTML = preview.map(l => renderCard(l, 'home')).join('');
+    if (window.T3WMotion) window.T3WMotion.observe(grid);
   } catch (err) {
     console.error('T3W home.js :', err);
     grid.innerHTML = `<p class="load-error">Impossible de charger les cartes.</p>`;
@@ -65,15 +66,5 @@
       currentBtn   = null;
     });
   });
-
-  // ── Burger menu (mobile) ───────────────────
-  const burger   = document.querySelector('.nav-burger');
-  const navLinks = document.querySelector('.nav-links');
-  if (burger && navLinks) {
-    burger.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-      const expanded = navLinks.classList.contains('open');
-      burger.setAttribute('aria-expanded', String(expanded));
-    });
-  }
+  // Le menu burger mobile est géré par /scripts/nav.js (partagé entre les pages)
 })();

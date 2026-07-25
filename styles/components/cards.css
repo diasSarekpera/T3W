@@ -24,11 +24,17 @@
   gap           : 14px;
   box-shadow    : 0 2px 14px rgba(80, 45, 10, 0.07);
   cursor        : pointer;
-  transition    : box-shadow 0.22s ease, transform 0.22s ease;
+  transition    : box-shadow var(--dur-state) var(--ease-standard),
+                  transform var(--dur-state) var(--ease-standard),
+                  border-color var(--dur-state) var(--ease-standard);
 }
 .card:hover {
-  box-shadow: 0 6px 28px rgba(80, 45, 10, 0.13);
-  transform : translateY(-2px);
+  box-shadow  : 0 6px 28px rgba(80, 45, 10, 0.13);
+  transform   : translateY(-2px);
+  border-color: var(--color-gold-pale);
+}
+.card:hover .card__leaf {
+  transform: rotate(-4deg); /* respiration organique, très discrète */
 }
 
 /* ── En-tête de carte ────────────────────── */
@@ -84,6 +90,7 @@
   opacity    : 0.85;
   margin-top : 2px;
   align-self : center;
+  transition : transform var(--dur-enter) var(--ease-spring);
 }
 .card__leaf svg { width: 100%; height: auto; }
 
@@ -105,12 +112,17 @@
   align-items    : center;
   justify-content: center;
   color          : var(--color-gold);
-  transition     : background 0.15s ease;
+  transition     : background var(--dur-hover) var(--ease-standard),
+                    transform var(--dur-hover) var(--ease-standard);
 }
-.card__icon-btn:hover { background: #ddd3be; }
+.card__icon-btn:hover {
+  background: #ddd3be;
+  transform : scale(1.06);
+}
 .card__icon-btn svg {
-  width : 15px;
-  height: 15px;
+  width     : 15px;
+  height    : 15px;
+  transition: transform var(--dur-hover) var(--ease-standard);
 }
 
 .card__arrow {
@@ -122,7 +134,10 @@
   align-items    : center;
   justify-content: center;
   color          : var(--color-text-2);
-  transition     : background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  overflow       : hidden;
+  transition     : background var(--dur-hover) var(--ease-standard),
+                    border-color var(--dur-hover) var(--ease-standard),
+                    color var(--dur-hover) var(--ease-standard);
 }
 .card__arrow:hover {
   background  : var(--color-gold);
@@ -130,16 +145,42 @@
   color       : #fff;
 }
 .card__arrow svg {
-  width : 15px;
-  height: 15px;
+  width     : 15px;
+  height    : 15px;
+  transition: transform var(--dur-hover) var(--ease-standard);
+}
+/* La flèche accompagne discrètement le geste au survol */
+.card__arrow:hover svg {
+  transform: translateX(2px);
 }
 
 /* ── Responsive ──────────────────────────── */
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px) {
-  .cards-grid { grid-template-columns: 1fr; }
+  .cards-grid { grid-template-columns: 1fr; gap: 16px; }
+
+  .card { padding: 20px 20px 16px; }
+
+  /* Zones tactiles portées à 44×44px minimum sur mobile */
+  .card__icon-btn,
+  .card__arrow {
+    width : 44px;
+    height: 44px;
+  }
+  .card__icon-btn svg,
+  .card__arrow svg {
+    width : 17px;
+    height: 17px;
+  }
+}
+
+/* La carte entière reste cliquable via card__arrow ; sur tactile,
+   on agrandit légèrement le rayon de la carte au tap pour un
+   retour visuel plus net qu'un simple hover (inexistant au doigt). */
+@media (hover: none) {
+  .card:active { transform: scale(0.99); }
 }

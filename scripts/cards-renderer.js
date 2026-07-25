@@ -29,7 +29,7 @@ function renderCard(lesson, context = 'library') {
   const tagLabel = `${_flag || ''} ${language}`.trim();
 
   return `
-    <article class="card" data-lang="${_langCode || ''}" role="article" aria-label="${language} — ${card.title}">
+    <article class="card" data-lang="${_langCode || ''}" data-reveal role="article" aria-label="${language} — ${card.title}">
       <div class="card__header">
         <span class="card__tag">${tagLabel}</span>
         <span class="card__num" aria-hidden="true">${card.title}</span>

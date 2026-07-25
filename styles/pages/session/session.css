@@ -26,6 +26,17 @@
   --c-text2     : #6B4626;
   --c-text3     : #A07850;
   --c-text4     : #C4A882;
+
+  /* ── Motion Design System (mêmes tokens que le reste du projet) ── */
+  --dur-hover  : 180ms;
+  --dur-state  : 240ms;
+  --dur-panel  : 320ms;
+  --dur-enter  : 450ms;
+  --dur-reveal : 550ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out     : cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out  : cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring  : cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 html { font-size: 16px; -webkit-text-size-adjust: 100%; }
@@ -101,7 +112,7 @@ body {
   cursor      : pointer;
   letter-spacing: 0.3px;
   text-decoration: none;
-  transition  : all 0.2s ease;
+  transition  : background var(--dur-hover) var(--ease-standard);
 }
 .btn-nav:hover { background: var(--c-bg2); border-color: var(--c-border2); }
 .btn-nav svg { width: 14px; height: 14px; }
@@ -141,7 +152,7 @@ body {
   font-weight : 400;
   color       : var(--c-text2);
   cursor      : pointer;
-  transition  : all 0.2s ease;
+  transition  : background var(--dur-hover) var(--ease-standard);
 }
 .btn-lang:hover { background: var(--c-bg2); }
 .btn-lang svg { width: 13px; height: 13px; }
@@ -199,7 +210,10 @@ body {
   align-items  : center;
   padding      : 16px 18px;
   gap          : 16px;
-  transition   : all 0.25s ease;
+  transition   : background var(--dur-hover) var(--ease-standard),
+                  border-color var(--dur-hover) var(--ease-standard),
+                  transform var(--dur-hover) var(--ease-standard),
+                  box-shadow var(--dur-hover) var(--ease-standard);
   cursor       : default;
   position     : relative;
   overflow     : hidden;
@@ -213,7 +227,7 @@ body {
   width        : 3px;
   background   : transparent;
   border-radius: 0 2px 2px 0;
-  transition   : background 0.25s;
+  transition   : background var(--dur-hover) var(--ease-standard);
 }
 .word-card:hover {
   background : var(--c-surface2);
@@ -237,7 +251,7 @@ body {
   width      : 22px;
   text-align : center;
   flex-shrink: 0;
-  transition : color 0.2s;
+  transition : color var(--dur-hover) var(--ease-standard);
 }
 
 .word-divider-v {
@@ -267,8 +281,8 @@ body {
 }
 
 .btn-audio {
-  width        : 40px;
-  height       : 40px;
+  width        : 44px;
+  height       : 44px;
   border-radius: 50%;
   background   : var(--c-bg2);
   border       : 1px solid var(--c-border2);
@@ -277,7 +291,8 @@ body {
   justify-content: center;
   cursor       : pointer;
   flex-shrink  : 0;
-  transition   : all 0.2s ease;
+  transition   : background var(--dur-hover) var(--ease-standard),
+                  border-color var(--dur-hover) var(--ease-standard);
 }
 .btn-audio:hover {
   background  : var(--c-gold);
@@ -288,7 +303,7 @@ body {
   width     : 16px;
   height    : 16px;
   color     : var(--c-brown-m);
-  transition: color 0.2s;
+  transition: color var(--dur-hover) var(--ease-standard);
 }
 
 /* ══════════════════
@@ -464,7 +479,10 @@ body {
   justify-content: center;
   cursor        : pointer;
   flex-shrink   : 0;
-  transition    : all 0.25s ease;
+  transition    : background var(--dur-hover) var(--ease-standard),
+                   border-color var(--dur-hover) var(--ease-standard),
+                   transform var(--dur-hover) var(--ease-spring),
+                   box-shadow var(--dur-hover) var(--ease-standard);
   backdrop-filter: blur(4px);
 }
 .btn-play-main:hover {
@@ -530,7 +548,7 @@ body {
   font-weight    : 400;
   color          : var(--c-text3);
   text-decoration: none;
-  transition     : color 0.2s;
+  transition     : color var(--dur-hover) var(--ease-standard);
   letter-spacing : 0.3px;
 }
 .session-nav__btn:hover { color: var(--c-gold); }
@@ -547,7 +565,8 @@ body {
   height       : 6px;
   border-radius: 50%;
   background   : var(--c-border2);
-  transition   : all 0.2s;
+  transition   : background var(--dur-hover) var(--ease-standard),
+                  width var(--dur-state) var(--ease-standard);
 }
 .session-nav__dot--active {
   background   : var(--c-gold);
@@ -584,14 +603,14 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.word-card { animation: fadeUp 0.5s ease both; }
+.word-card { animation: fadeUp 0.5s var(--ease-out) both; }
 .word-card:nth-child(1) { animation-delay: 0.05s; }
 .word-card:nth-child(2) { animation-delay: 0.12s; }
 .word-card:nth-child(3) { animation-delay: 0.19s; }
 
-.phrase-card { animation: fadeUp 0.5s ease 0.28s both; }
-.song-card   { animation: fadeUp 0.5s ease 0.38s both; }
-.session-nav { animation: fadeUp 0.5s ease 0.48s both; }
+.phrase-card { animation: fadeUp 0.5s var(--ease-out) 0.28s both; }
+.song-card   { animation: fadeUp 0.5s var(--ease-out) 0.38s both; }
+.session-nav { animation: fadeUp 0.5s var(--ease-out) 0.48s both; }
 
 /* ══════════════════
    RESPONSIVE ÉLARGI
@@ -609,10 +628,54 @@ body {
   }
 }
 
+/* ── Tablette / desktop : la leçon reste un "mode focus" centré,
+   mais respire davantage pour ne pas paraître comme une simple
+   version rétrécie du mobile — cadre plus large, marges verticales
+   généreuses, ombre plus profonde pour ancrer la carte sur l'écran. ── */
+@media (min-width: 900px) {
+  .shell {
+    max-width : 480px;
+    margin    : 48px auto;
+    min-height: calc(100vh - 96px);
+    box-shadow: 0 32px 80px rgba(74, 44, 14, 0.22);
+  }
+  .shell::before { max-width: 480px; }
+
+  .phrase-text     { font-size: 30px; }
+  .word-target     { font-size: 28px; }
+  .btn-play-main:hover { transform: scale(1.06); }
+}
+
 @media (max-width: 360px) {
   .header { padding: 16px 14px 12px; }
   .btn-nav, .btn-lang { padding: 7px 10px; font-size: 12px; }
   .words-stack, .phrase-wrap, .song-wrap, .session-nav { padding-left: 14px; padding-right: 14px; }
   .phrase-text { font-size: 24px; }
   .song-title-text { font-size: 20px; }
+}
+
+/* ── Zones tactiles : garantit ≥44px sur les boutons audio ── */
+@media (hover: none) {
+  .btn-nav, .btn-lang { min-height: 44px; }
+  .btn-nav:active, .btn-lang:active,
+  .btn-audio:active, .btn-play-main:active {
+    transform: scale(0.96);
+  }
+}
+
+/* ── Focus clavier cohérent avec le reste du projet ── */
+a:focus-visible,
+button:focus-visible {
+  outline       : 2px solid var(--c-gold);
+  outline-offset: 3px;
+  border-radius : 4px;
+}
+
+/* ── Préférences de mouvement réduit ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration : 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

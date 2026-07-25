@@ -64,14 +64,34 @@
   font-weight   : 400;
   color         : var(--color-text-2);
   letter-spacing: 0.3px;
-  transition    : color 0.15s ease;
+  transition    : color var(--dur-hover) var(--ease-standard);
   position      : relative;
+  padding-bottom: 2px;
+}
+
+/* Soulignement animé : révélé au survol depuis le centre */
+.nav-links a::after {
+  content   : '';
+  position  : absolute;
+  left      : 0;
+  right     : 0;
+  bottom    : -2px;
+  height    : 1px;
+  background: var(--color-gold);
+  transform : scaleX(0);
+  transform-origin: center;
+  transition: transform var(--dur-hover) var(--ease-standard);
 }
 .nav-links a:hover { color: var(--color-gold); }
+.nav-links a:hover::after { transform: scaleX(1); }
 
 .nav-links a.active {
   color      : var(--color-text-1);
   font-weight: 500;
+}
+.nav-links a.active::after {
+  transform : scaleX(1);
+  background: var(--color-text-3);
 }
 
 /* ── Actions (zone droite) ───────────────── */
@@ -108,24 +128,64 @@
 .nav-burger {
   display        : none;
   flex-direction : column;
-  justify-content: space-between;
-  width  : 22px;
-  height : 16px;
+  justify-content: center;
+  align-items    : center;
+  gap            : 5px;
+  width  : 44px;
+  height : 44px;
+  margin : 0 -11px;
   cursor : pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-burger span {
   display      : block;
+  width        : 20px;
   height       : 1.5px;
   background   : var(--color-text-2);
   border-radius: 2px;
-  transition   : all 0.22s ease;
+  transition   : transform var(--dur-state) var(--ease-in-out),
+                 opacity var(--dur-hover) var(--ease-standard);
 }
 
-/* ── Responsive ──────────────────────────── */
+/* État ouvert : morph en croix */
+.nav-burger[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.nav-burger[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+.nav-burger[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
 
-@media (max-width: 960px) {
-  .nav { padding: 0 20px; }
+/* ── Voile d'arrière-plan (mobile) ───────── */
+
+.nav-overlay {
+  display   : none;
+  position  : fixed;
+  inset     : 64px 0 0 0;
+  background: rgba(30, 18, 8, 0.28);
+  z-index   : 198;
+  opacity   : 0;
+  transition: opacity var(--dur-panel) var(--ease-standard);
+}
+.nav-overlay.open {
+  display: block;
+  opacity: 1;
+}
+
+/* ── Responsive : tablette (resserrement doux) ── */
+
+@media (max-width: 1100px) {
+  .nav        { padding: 0 32px; }
+  .nav-links  { gap: 24px; }
+}
+
+/* ── Responsive : bascule menu mobile ────── */
+
+@media (max-width: 900px) {
+  .nav { padding: 0 20px; height: 64px; }
 
   .nav-links {
     display: none;
@@ -134,18 +194,38 @@
     display        : flex;
     flex-direction : column;
     position       : fixed;
-    top            : 68px;
+    top            : 64px;
     left           : 0;
     right          : 0;
+    max-height     : calc(100dvh - 64px);
+    overflow-y     : auto;
     background     : rgba(247, 242, 234, 0.98);
-    padding        : 32px 32px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    padding        : 28px 24px calc(28px + env(safe-area-inset-bottom));
     border-bottom  : 1px solid var(--color-border);
-    gap            : 20px;
+    gap            : 4px;
     z-index        : 199;
-    box-shadow     : 0 2px 12px rgba(74, 44, 14, 0.08);
+    box-shadow     : 0 8px 28px rgba(74, 44, 14, 0.14);
+    animation      : navDrop var(--dur-panel) var(--ease-out) both;
   }
 
+  /* Chaque lien devient une zone tactile pleine largeur (≥44px) */
+  .nav-links.open a {
+    display      : flex;
+    align-items  : center;
+    min-height   : 48px;
+    font-size    : 16px;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .nav-links.open a:last-child { border-bottom: none; }
+
   .nav-burger { display: flex; }
+}
+
+@keyframes navDrop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 640px) {

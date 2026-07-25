@@ -27,7 +27,7 @@
         <span class="header__logo-sub">The 3 Words</span>
       </a>
 
-      <nav class="header__nav" aria-label="Navigation principale">
+      <nav class="header__nav" id="header-nav" data-nav-links aria-label="Navigation principale">
         <a href="/">Accueil</a>
         <a href="/pages/cartes.html" class="active">Cartes</a>
         <a href="/index.html#about">La méthode</a>
@@ -40,10 +40,16 @@
           <span class="nav-lang-sep" aria-hidden="true">·</span>
           <span class="nav-lang-badge">🇪🇸 Espagnol</span>
         </div>
+        <button class="header__burger" data-nav-burger aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="header-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
 
     </div>
   </header>
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
 
 
   <!-- ════════════════════════════════
@@ -124,7 +130,7 @@
     FOOTER
   ════════════════════════════════ -->
   <footer class="footer" role="contentinfo">
-    <div class="footer__top">
+    <div class="footer__top" data-reveal>
 
       <div class="footer__brand">
         <a href="/" class="footer__logo" aria-label="T3W – Accueil">
@@ -195,6 +201,8 @@
   <script src="/scripts/lessons.js"></script>
   <script src="/scripts/cards-renderer.js"></script>
   <script src="/scripts/cartes.js"></script>
+  <script src="/scripts/nav.js"></script>
+  <script src="/scripts/motion.js"></script>
 
 </body>
 </html>

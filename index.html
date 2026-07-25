@@ -25,7 +25,7 @@
       <span class="nav-logo-sub">The 3 Words</span>
     </a>
 
-    <div class="nav-links" id="nav-links">
+    <div class="nav-links" id="nav-links" data-nav-links>
       <a href="/">Accueil</a>
       <a href="/pages/cartes.html">Cartes</a>
       <a href="#about">La méthode</a>
@@ -38,13 +38,14 @@
         <span class="nav-lang-sep" aria-hidden="true">·</span>
         <span class="nav-lang-badge">🇪🇸 Espagnol</span>
       </div>
-      <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+      <button class="nav-burger" data-nav-burger aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
         <span></span>
         <span></span>
         <span></span>
       </button>
     </div>
   </nav>
+  <div class="nav-overlay" id="nav-overlay" hidden></div>
 
 
   <!-- ════════════════════════════════
@@ -129,14 +130,14 @@
   <section class="about" id="about" aria-labelledby="about-title">
     <div class="about__deco-ring" aria-hidden="true"></div>
 
-    <div class="section-eyebrow">
+    <div class="section-eyebrow" data-reveal>
       <div class="section-eyebrow__line" aria-hidden="true"></div>
       <span class="section-eyebrow__text">La méthode</span>
     </div>
 
     <div class="about__content">
       <!-- Gauche -->
-      <div class="about__left">
+      <div class="about__left" data-reveal="left">
         <span class="about__label">Philosophie</span>
         <h2 class="about__title" id="about-title">
           Moins,<br>
@@ -156,10 +157,10 @@
       </div>
 
       <!-- Droite -->
-      <div class="about__right">
+      <div class="about__right" data-reveal="right" data-reveal-group>
         <span class="about__pillars-label">Les 3 piliers</span>
 
-        <div class="pillar">
+        <div class="pillar" data-reveal>
           <span class="pillar__number">01</span>
           <div>
             <h3 class="pillar__title">Écouter</h3>
@@ -167,7 +168,7 @@
           </div>
         </div>
 
-        <div class="pillar">
+        <div class="pillar" data-reveal>
           <span class="pillar__number">02</span>
           <div>
             <h3 class="pillar__title">Comprendre</h3>
@@ -175,7 +176,7 @@
           </div>
         </div>
 
-        <div class="pillar">
+        <div class="pillar" data-reveal>
           <span class="pillar__number">03</span>
           <div>
             <h3 class="pillar__title">Retenir</h3>
@@ -192,7 +193,7 @@
   ════════════════════════════════ -->
   <section class="learn" id="learn" aria-labelledby="learn-title">
 
-    <div class="learn__header">
+    <div class="learn__header" data-reveal>
       <div class="learn__eyebrow">
         <svg class="learn__eyebrow-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/>
@@ -210,14 +211,14 @@
     </div>
 
     <!-- Grille générée dynamiquement par home.js -->
-    <div class="cards-grid" id="home-cards-grid" aria-live="polite" aria-label="Aperçu des cartes">
+    <div class="cards-grid" id="home-cards-grid" data-reveal-group aria-live="polite" aria-label="Aperçu des cartes">
       <!-- Squelettes de chargement -->
       <div class="card card--skeleton" aria-hidden="true"></div>
       <div class="card card--skeleton" aria-hidden="true"></div>
       <div class="card card--skeleton" aria-hidden="true"></div>
     </div>
 
-    <div class="learn__cta">
+    <div class="learn__cta" data-reveal>
       <a href="/pages/cartes.html" class="btn-outline-dark">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <rect x="3" y="3" width="7" height="7" rx="1"/>
@@ -236,7 +237,7 @@
        FOOTER
   ════════════════════════════════ -->
   <footer class="footer" role="contentinfo">
-    <div class="footer__top">
+    <div class="footer__top" data-reveal>
 
       <!-- Colonne 1 — Marque -->
       <div class="footer__brand">
@@ -312,6 +313,8 @@
   <script src="/scripts/lessons.js"></script>
   <script src="/scripts/cards-renderer.js"></script>
   <script src="/scripts/home.js"></script>
+  <script src="/scripts/nav.js"></script>
+  <script src="/scripts/motion.js"></script>
 
 </body>
 </html>

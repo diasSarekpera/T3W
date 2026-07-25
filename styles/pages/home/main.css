@@ -8,6 +8,7 @@
 @import url('../../global/variables.css');
 @import url('../../global/reset.css');
 @import url('../../global/base.css');
+@import url('../../global/motion.css');
 
 /* ── Composants partagés ─────────────────── */
 @import url('../../components/navbar.css');

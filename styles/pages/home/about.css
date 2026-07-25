@@ -41,7 +41,7 @@
   align-items  : center;
   gap          : 14px;
   margin-bottom: 52px;
-  animation    : fadeUp 0.8s ease 0.1s both;
+  /* Révélation gérée au scroll via [data-reveal] — voir motion.js */
 }
 .section-eyebrow__line {
   width     : 40px;
@@ -71,7 +71,7 @@
 .about__left {
   padding-right: 80px;
   border-right : 1px solid var(--color-border-soft);
-  animation    : fadeUp 0.9s ease 0.25s both;
+  /* Révélation gérée au scroll via [data-reveal] — voir motion.js */
 }
 
 .about__label {
@@ -150,7 +150,7 @@
 
 .about__right {
   padding-left: 80px;
-  animation   : fadeUp 0.9s ease 0.4s both;
+  /* Révélation gérée au scroll via [data-reveal] — voir motion.js */
 }
 
 .about__pillars-label {
@@ -171,10 +171,14 @@
   gap                  : 0 20px;
   padding              : 28px 0;
   border-bottom        : 1px solid var(--color-border-soft);
-  transition           : all 0.4s ease;
+  transition           : border-color var(--dur-state) var(--ease-standard),
+                          transform var(--dur-state) var(--ease-standard);
 }
 .pillar:first-of-type { border-top: 1px solid var(--color-border-soft); }
 
+.pillar:hover {
+  transform: translateX(4px); /* guide discrètement le regard vers le contenu */
+}
 .pillar:hover .pillar__number,
 .pillar:hover .pillar__title { color: var(--color-gold); }
 
@@ -185,7 +189,7 @@
   padding-top   : 5px;
   letter-spacing: 0.05em;
   align-self    : start;
-  transition    : color 0.22s ease;
+  transition    : color var(--dur-hover) var(--ease-standard);
 }
 
 .pillar__title {
@@ -195,7 +199,7 @@
   color        : var(--color-text-1);
   margin-bottom: 8px;
   line-height  : 1.2;
-  transition   : color 0.22s ease;
+  transition   : color var(--dur-hover) var(--ease-standard);
 }
 
 .pillar__desc {
@@ -206,4 +210,51 @@
   color      : var(--color-text-3);
 }
 
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+
+@media (max-width: 1280px) {
+  .about { padding: 88px 40px 100px; }
+  .about__left  { padding-right: 48px; }
+  .about__right { padding-left : 48px; }
+}
+
+/* ── Tablette : les deux colonnes s'empilent ── */
+@media (max-width: 900px) {
+  .about { padding: 72px 24px 88px; }
+  .about__deco-ring { display: none; }
+
+  .about__content {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .about__left {
+    padding-right: 0;
+    border-right : none;
+    padding-bottom: 40px;
+    border-bottom : 1px solid var(--color-border-soft);
+  }
+
+  .about__right { padding-left: 0; }
+
+  .about__intro { max-width: 100%; }
+}
+
+@media (max-width: 560px) {
+  .about { padding: 56px 18px 72px; }
+  .about__title { font-size: clamp(38px, 11vw, 48px); }
+  .about__quote { padding: 20px 20px; }
+  .about__quote-text { font-size: 17px; }
+
+  /* Le pilier passe en pleine largeur avec numéro au-dessus du titre
+     pour laisser toute la largeur au texte de description. */
+  .pillar {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 22px 0;
+  }
+  .pillar__number { padding-top: 0; }
+}
 

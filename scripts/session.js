@@ -208,9 +208,9 @@
 
   function showError(msg) {
     document.querySelector('.shell').innerHTML = `
-      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100dvh;gap:16px;padding:24px;text-align:center;">
-        <p style="font-family:var(--font-serif);font-size:22px;color:var(--c-txt);">${msg}</p>
-        <a href="/pages/cartes.html" style="font-family:var(--font-sans);font-size:14px;color:var(--c-accent);text-decoration:underline;">
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100dvh;gap:16px;padding:24px;text-align:center;">
+        <p style="font-family:var(--font-serif);font-size:22px;color:var(--c-text1);">${msg}</p>
+        <a href="/pages/cartes.html" style="font-family:var(--font-sans);font-size:15px;color:var(--c-gold);text-decoration:underline;min-height:44px;display:flex;align-items:center;">
           Voir toutes les cartes
         </a>
       </div>

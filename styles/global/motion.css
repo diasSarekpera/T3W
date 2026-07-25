@@ -1,0 +1,122 @@
+/* ════════════════════════════════════════════
+   T3W – motion.css
+   Motion Design System — source unique des
+   règles de mouvement du projet.
+
+   Ce fichier définit :
+   1. Les tokens (durées + courbes)
+   2. Les utilitaires de révélation au scroll
+   3. Un état de focus clavier cohérent
+   4. Le respect de prefers-reduced-motion
+
+   Toutes les animations du projet doivent
+   utiliser ces tokens plutôt que des valeurs
+   codées en dur.
+════════════════════════════════════════════ */
+
+:root {
+
+  /* ── Durées ───────────────────────────────
+     Un rythme unique pour tout le produit.   */
+  --dur-hover  : 180ms;  /* survol, changement d'état simple (couleur, bordure) */
+  --dur-state  : 240ms;  /* changement d'état interactif (toggle, filtre, bouton) */
+  --dur-panel  : 320ms;  /* ouverture/fermeture de panneaux (menu mobile) */
+  --dur-enter  : 450ms;  /* apparition d'éléments au chargement */
+  --dur-reveal : 550ms;  /* révélation au scroll */
+
+  /* ── Courbes d'accélération ───────────────
+     Choisies selon l'intention du mouvement. */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);    /* transitions générales — neutre et naturelle */
+  --ease-out     : cubic-bezier(0.16, 1, 0.3, 1);   /* apparitions — décélération douce, sensation premium */
+  --ease-in-out  : cubic-bezier(0.65, 0, 0.35, 1);  /* ouverture/fermeture de panneaux */
+  --ease-spring  : cubic-bezier(0.34, 1.56, 0.64, 1); /* micro-rebond discret (icônes, boutons ronds) */
+}
+
+/* ════════════════════════════════════════════
+   RÉVÉLATION AU SCROLL
+   Piloté par scripts/motion.js (IntersectionObserver).
+   Usage : data-reveal / data-reveal="left|right|scale"
+   Regroupement avec effet cascade : data-reveal-group
+════════════════════════════════════════════ */
+
+[data-reveal] {
+  opacity  : 0;
+  transform: translateY(22px);
+  transition: opacity var(--dur-reveal) var(--ease-out),
+              transform var(--dur-reveal) var(--ease-out);
+}
+[data-reveal].is-visible {
+  opacity  : 1;
+  transform: none;
+}
+
+[data-reveal="left"]  { transform: translateX(-26px); }
+[data-reveal="right"] { transform: translateX(26px); }
+[data-reveal="scale"] { transform: scale(0.94); }
+[data-reveal="left"].is-visible,
+[data-reveal="right"].is-visible,
+[data-reveal="scale"].is-visible { transform: none; }
+
+/* Cascade : jusqu'à 8 enfants directs, puis délai plafonné */
+[data-reveal-group] > [data-reveal]:nth-child(1) { transition-delay: 0ms; }
+[data-reveal-group] > [data-reveal]:nth-child(2) { transition-delay: 70ms; }
+[data-reveal-group] > [data-reveal]:nth-child(3) { transition-delay: 140ms; }
+[data-reveal-group] > [data-reveal]:nth-child(4) { transition-delay: 210ms; }
+[data-reveal-group] > [data-reveal]:nth-child(5) { transition-delay: 280ms; }
+[data-reveal-group] > [data-reveal]:nth-child(6) { transition-delay: 350ms; }
+[data-reveal-group] > [data-reveal]:nth-child(7) { transition-delay: 420ms; }
+[data-reveal-group] > [data-reveal]:nth-child(n+8) { transition-delay: 490ms; }
+
+/* ════════════════════════════════════════════
+   FOCUS CLAVIER
+   Un seul style de focus, cohérent partout,
+   visible uniquement à la navigation clavier.
+════════════════════════════════════════════ */
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline       : 2px solid var(--color-gold, #9B6E2F);
+  outline-offset: 3px;
+  border-radius : 4px;
+  transition    : outline-offset var(--dur-hover) var(--ease-standard);
+}
+
+/* ════════════════════════════════════════════
+   RETOUR TACTILE
+   Micro-feedback au tap sur les éléments
+   pressables, en complément du hover (absent
+   au doigt). Volontairement très discret.
+════════════════════════════════════════════ */
+
+@media (hover: none) {
+  .btn-primary:active,
+  .btn-outline-dark:active,
+  .card__icon-btn:active,
+  .card__arrow:active,
+  .filter-tab:active {
+    transform: scale(0.96);
+  }
+}
+
+/* ════════════════════════════════════════════
+   PRÉFÉRENCES DE MOUVEMENT RÉDUIT
+   Coupe-circuit global : toute animation ou
+   transition du projet est neutralisée, et
+   les éléments en attente de révélation sont
+   affichés immédiatement plutôt que masqués.
+════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration : 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior     : auto !important;
+  }
+
+  [data-reveal] {
+    opacity  : 1 !important;
+    transform: none !important;
+  }
+}

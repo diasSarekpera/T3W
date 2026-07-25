@@ -29,7 +29,7 @@
   align-items  : center;
   gap          : 10px;
   margin-bottom: 32px;
-  animation    : fadeUp 0.7s ease 0.1s both;
+  animation    : fadeUp 0.7s var(--ease-out) 0.1s both;
 }
 .hero-eyebrow-line {
   width     : 28px;
@@ -53,7 +53,7 @@
   font-weight  : 300;
   line-height  : 1.06;
   margin-bottom: 30px;
-  animation    : fadeUp 0.7s ease 0.22s both;
+  animation    : fadeUp 0.7s var(--ease-out) 0.22s both;
 }
 .hero-title__line1 {
   display       : block;
@@ -76,7 +76,7 @@
   align-items  : center;
   gap          : 14px;
   margin-bottom: 28px;
-  animation    : fadeUp 0.6s ease 0.36s both;
+  animation    : fadeUp 0.6s var(--ease-out) 0.36s both;
   color        : var(--color-gold);
   opacity      : 0.55;
 }
@@ -95,7 +95,7 @@
   color        : var(--color-text-2);
   max-width    : 400px;
   margin-bottom: 40px;
-  animation    : fadeUp 0.6s ease 0.46s both;
+  animation    : fadeUp 0.6s var(--ease-out) 0.46s both;
 }
 
 /* CTA */
@@ -104,7 +104,7 @@
   align-items: center;
   gap        : 20px;
   flex-wrap  : wrap;
-  animation  : fadeUp 0.6s ease 0.56s both;
+  animation  : fadeUp 0.6s var(--ease-out) 0.56s both;
 }
 
 /* ── Boutons ──────────────────────────────── */
@@ -122,12 +122,18 @@
   color         : #FBF6EE;
   letter-spacing: 0.4px;
   box-shadow    : 0 6px 24px rgba(122, 82, 32, 0.24);
-  transition    : background 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
+  transition    : background var(--dur-hover) var(--ease-standard),
+                   transform var(--dur-hover) var(--ease-standard),
+                   box-shadow var(--dur-hover) var(--ease-standard);
 }
 .btn-primary:hover {
   background: var(--color-gold);
   transform : translateY(-2px);
   box-shadow: 0 12px 32px rgba(122, 82, 32, 0.32);
+}
+.btn-primary:active {
+  transform : translateY(0); /* confirme la pression, ne "flotte" pas au clic */
+  box-shadow: 0 6px 20px rgba(122, 82, 32, 0.26);
 }
 .btn-primary svg { width: 16px; height: 16px; }
 
@@ -139,10 +145,16 @@
   font-size  : 13.5px;
   font-weight: 400;
   color      : var(--color-text-3);
-  transition : color 0.15s ease;
+  transition : color var(--dur-hover) var(--ease-standard);
 }
 .btn-ghost:hover { color: var(--color-gold); }
-.btn-ghost svg { width: 14px; height: 14px; }
+.btn-ghost svg {
+  width     : 14px;
+  height    : 14px;
+  transition: transform var(--dur-hover) var(--ease-standard);
+}
+/* L'icône accompagne discrètement le geste, sans excès */
+.btn-ghost:hover svg { transform: translateX(2px); }
 
 /* ── Colonne droite ──────────────────────── */
 
@@ -153,7 +165,7 @@
   justify-content: center;
   overflow       : hidden;
   background     : var(--color-bg-alt);
-  animation      : fadeIn 1s ease 0.2s both;
+  animation      : fadeIn 1s var(--ease-out) 0.2s both;
 }
 
 .hero-right::before {
@@ -217,17 +229,17 @@
 .word-card--top {
   top      : 14%;
   right    : 32px;
-  animation: floatA 7s ease-in-out infinite, fadeUp 0.6s ease 0.55s both;
+  animation: floatA 7s ease-in-out infinite, fadeUp 0.6s var(--ease-out) 0.55s both;
 }
 .word-card--mid {
   top      : 50%;
   left     : 28px;
-  animation: floatB 8s ease-in-out 2s infinite, fadeUp 0.6s ease 0.7s both;
+  animation: floatB 8s ease-in-out 2s infinite, fadeUp 0.6s var(--ease-out) 0.7s both;
 }
 .word-card--bottom {
   bottom   : 13%;
   right    : 40px;
-  animation: floatA 9s ease-in-out 4s infinite, fadeUp 0.6s ease 0.85s both;
+  animation: floatA 9s ease-in-out 4s infinite, fadeUp 0.6s var(--ease-out) 0.85s both;
 }
 
 .wc-lang {
@@ -253,4 +265,101 @@
   line-height: 1.5;
 }
 
+/* ════════════════════════════════════════════
+   RESPONSIVE
+   ≥1440 : légère respiration supplémentaire
+   1024–1439 : 2 colonnes resserrées
+   901–1023 : 2 colonnes compactes (tablette paysage)
+   ≤900 : empilement (tablette portrait / mobile)
+════════════════════════════════════════════ */
+
+/* ── Très grand écran : un peu plus d'air ── */
+@media (min-width: 1600px) {
+  .hero-left { padding-left: 96px; }
+  .hero-desc { max-width: 460px; }
+}
+
+/* ── Laptop / petit desktop : resserre les paddings ── */
+@media (max-width: 1280px) {
+  .hero-left { padding: 64px 44px 64px 48px; }
+  .word-card { min-width: 160px; padding: 14px 16px; }
+}
+
+/* ── Tablette paysage : colonnes compactes, cartes réduites ── */
+@media (max-width: 1023px) {
+  .hero-left { padding: 56px 36px; }
+  .hero-desc { max-width: 340px; }
+  .hero-img  { min-height: 460px; }
+
+  .word-card--top    { right: 16px; min-width: 150px; }
+  .word-card--mid     { left: 14px; min-width: 150px; }
+  .word-card--bottom { right: 20px; min-width: 150px; }
+}
+
+/* ── Tablette portrait & mobile : empilement complet ──
+   La colonne texte passe en premier plan pleine largeur ;
+   l'illustration devient un bandeau sous le texte, et les
+   cartes de mots flottantes deviennent une bande défilable
+   au tactile plutôt que des éléments superposés au texte. */
+@media (max-width: 900px) {
+  .hero {
+    display   : flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .hero-left {
+    order  : 1;
+    padding: 44px 24px 32px;
+    text-align: left;
+  }
+
+  .hero-title__line1,
+  .hero-title__line2 {
+    font-size: clamp(2.4rem, 9vw, 3.2rem);
+  }
+
+  .hero-desc { max-width: 100%; }
+
+  .hero-cta-group { width: 100%; }
+  .btn-primary,
+  .btn-ghost {
+    min-height: 48px; /* zone tactile confortable */
+  }
+  .btn-primary { width: 100%; justify-content: center; }
+  .btn-ghost   { justify-content: center; padding: 8px 0; }
+
+  /* Illustration : bandeau compact plutôt que 100dvh forcé.
+     Les cartes de mots restent superposées à l'image (jamais
+     au texte, qui est maintenant au-dessus) mais sont
+     repositionnées et réduites pour tenir dans un bandeau court. */
+  .hero-right {
+    order     : 2;
+    height    : 280px;
+    min-height: 0;
+  }
+
+  .word-card {
+    min-width: 132px;
+    padding  : 10px 14px;
+    gap      : 2px;
+  }
+  .wc-word { font-size: 17px; }
+  .wc-lang { letter-spacing: 2px; }
+
+  .word-card--top    { top: 10px; right: 10px; }
+  .word-card--mid    { top: auto; bottom: 10px; left: 10px; }
+  /* La 3e carte est retirée sur bandeau court : elle chevaucherait
+     les deux autres dans un espace vertical réduit. */
+  .word-card--bottom { display: none; }
+}
+
+@media (max-width: 480px) {
+  .hero-left { padding: 36px 18px 28px; }
+  .hero-eyebrow { margin-bottom: 20px; }
+  .hero-title { margin-bottom: 20px; }
+  .hero-desc  { font-size: 14px; margin-bottom: 28px; }
+  .hero-right { height: 220px; }
+  .word-card--mid { display: none; } /* évite la surcharge sur très petits écrans */
+}
 
