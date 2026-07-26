@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-6",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 6",
+    "title": "Leer, Aprender, Crecer",
     "tagline": "Apprenez à parler d'apprentissage et de progression."
   },
-
   "words": [
     {
       "word": "Leer",
@@ -24,13 +22,11 @@
       "audio": "audio/crecer.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Lee, aprende y crece.",
     "french": "Lis, apprends et grandis.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Leer Aprender Crecer",
     "description": "Une chanson inspirante sur le plaisir d'apprendre.",

@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-15",
+  "language": "English",
+  "card": {
+    "title": "Head, Hand, Foot",
+    "tagline": "Apprenez les premiers mots pour parler du corps."
+  },
+  "words": [
+    {
+      "word": "Head",
+      "translation": "Tête",
+      "audio": "audio/head.mp3"
+    },
+    {
+      "word": "Hand",
+      "translation": "Main",
+      "audio": "audio/hand.mp3"
+    },
+    {
+      "word": "Foot",
+      "translation": "Pied",
+      "audio": "audio/foot.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "My hand hurts a little.",
+    "french": "Ma main me fait un peu mal.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Head Hand Foot",
+    "description": "Une chanson enjouée pour nommer les parties du corps.",
+    "audio": "audio/song.mp3"
+  }
+}

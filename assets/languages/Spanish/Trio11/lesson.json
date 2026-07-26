@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-11",
+  "language": "Spanish",
+  "card": {
+    "title": "Frío, Calor, Afuera",
+    "tagline": "Apprenez à parler du temps qu'il fait."
+  },
+  "words": [
+    {
+      "word": "Frío",
+      "translation": "Froid",
+      "audio": "audio/frio.mp3"
+    },
+    {
+      "word": "Calor",
+      "translation": "Chaud",
+      "audio": "audio/calor.mp3"
+    },
+    {
+      "word": "Afuera",
+      "translation": "Dehors",
+      "audio": "audio/afuera.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Hace frío afuera hoy.",
+    "french": "Il fait froid dehors aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Frío Calor Afuera",
+    "description": "Une chanson légère pour parler de la météo du jour.",
+    "audio": "audio/song.mp3"
+  }
+}

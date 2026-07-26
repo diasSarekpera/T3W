@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-19",
+  "language": "English",
+  "card": {
+    "title": "Work, Study, Time",
+    "tagline": "Apprenez à parler du travail et des études."
+  },
+  "words": [
+    {
+      "word": "Work",
+      "translation": "Travail",
+      "audio": "audio/work.mp3"
+    },
+    {
+      "word": "Study",
+      "translation": "Étudier",
+      "audio": "audio/study.mp3"
+    },
+    {
+      "word": "Time",
+      "translation": "Temps",
+      "audio": "audio/time.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I don't have time to study today.",
+    "french": "Je n'ai pas le temps d'étudier aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Work Study Time",
+    "description": "Une chanson motivante sur le travail et l'apprentissage.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-17",
+  "language": "English",
+  "card": {
+    "title": "Car, Bus, Train",
+    "tagline": "Apprenez à parler des moyens de transport."
+  },
+  "words": [
+    {
+      "word": "Car",
+      "translation": "Voiture",
+      "audio": "audio/car.mp3"
+    },
+    {
+      "word": "Bus",
+      "translation": "Bus",
+      "audio": "audio/bus.mp3"
+    },
+    {
+      "word": "Train",
+      "translation": "Train",
+      "audio": "audio/train.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I take the train to work.",
+    "french": "Je prends le train pour aller au travail.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Car Bus Train",
+    "description": "Une chanson entraînante sur les transports du quotidien.",
+    "audio": "audio/song.mp3"
+  }
+}

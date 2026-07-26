@@ -1,12 +1,10 @@
 {
   "id": "english-trio-2",
   "language": "English",
-
   "card": {
-    "title": "Trio 2",
+    "title": "I, Am, Peter",
     "tagline": "Apprenez à vous présenter simplement."
   },
-
   "words": [
     {
       "word": "I",
@@ -24,13 +22,11 @@
       "audio": "audio/peter.mp3"
     }
   ],
-
   "sentence": {
     "english": "I am Peter.",
     "french": "Je suis Peter.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "I Am Peter",
     "description": "Une chanson simple pour apprendre à se présenter en anglais.",

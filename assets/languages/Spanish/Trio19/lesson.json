@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-19",
+  "language": "Spanish",
+  "card": {
+    "title": "Trabajo, Estudiar, Tiempo",
+    "tagline": "Apprenez à parler du travail et des études."
+  },
+  "words": [
+    {
+      "word": "Trabajo",
+      "translation": "Travail",
+      "audio": "audio/trabajo.mp3"
+    },
+    {
+      "word": "Estudiar",
+      "translation": "Étudier",
+      "audio": "audio/estudiar.mp3"
+    },
+    {
+      "word": "Tiempo",
+      "translation": "Temps",
+      "audio": "audio/tiempo.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "No tengo tiempo para estudiar hoy.",
+    "french": "Je n'ai pas le temps d'étudier aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Trabajo Estudiar Tiempo",
+    "description": "Une chanson motivante sur le travail et l'apprentissage.",
+    "audio": "audio/song.mp3"
+  }
+}

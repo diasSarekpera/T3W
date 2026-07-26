@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-16",
+  "language": "English",
+  "card": {
+    "title": "Red, Blue, Green",
+    "tagline": "Apprenez à nommer les couleurs essentielles."
+  },
+  "words": [
+    {
+      "word": "Red",
+      "translation": "Rouge",
+      "audio": "audio/red.mp3"
+    },
+    {
+      "word": "Blue",
+      "translation": "Bleu",
+      "audio": "audio/blue.mp3"
+    },
+    {
+      "word": "Green",
+      "translation": "Vert",
+      "audio": "audio/green.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I like the blue sky and the green grass.",
+    "french": "J'aime le ciel bleu et l'herbe verte.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Red Blue Green",
+    "description": "Une chanson colorée pour retenir les couleurs facilement.",
+    "audio": "audio/song.mp3"
+  }
+}

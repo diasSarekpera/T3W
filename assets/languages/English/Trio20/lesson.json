@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-20",
+  "language": "English",
+  "card": {
+    "title": "Phone, Message, Internet",
+    "tagline": "Apprenez à parler des outils numériques du quotidien."
+  },
+  "words": [
+    {
+      "word": "Phone",
+      "translation": "Téléphone",
+      "audio": "audio/phone.mp3"
+    },
+    {
+      "word": "Message",
+      "translation": "Message",
+      "audio": "audio/message.mp3"
+    },
+    {
+      "word": "Internet",
+      "translation": "Internet",
+      "audio": "audio/internet.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I send a message on my phone.",
+    "french": "J'envoie un message sur mon téléphone.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Phone Message Internet",
+    "description": "Une chanson moderne sur nos habitudes numériques.",
+    "audio": "audio/song.mp3"
+  }
+}

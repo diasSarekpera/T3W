@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-26",
+  "language": "Spanish",
+  "card": {
+    "title": "Yo, Pienso, Quizás",
+    "tagline": "Apprenez à exprimer un avis avec nuance."
+  },
+  "words": [
+    {
+      "word": "Yo",
+      "translation": "Je",
+      "audio": "audio/yo.mp3"
+    },
+    {
+      "word": "Pienso",
+      "translation": "Pense",
+      "audio": "audio/pienso.mp3"
+    },
+    {
+      "word": "Quizás",
+      "translation": "Peut-être",
+      "audio": "audio/quizas.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Pienso que quizás tengas razón.",
+    "french": "Je pense que tu as peut-être raison.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Yo Pienso Quizás",
+    "description": "Une chanson posée pour apprendre à nuancer une opinion.",
+    "audio": "audio/song.mp3"
+  }
+}

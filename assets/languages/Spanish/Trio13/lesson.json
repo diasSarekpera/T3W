@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-13",
+  "language": "Spanish",
+  "card": {
+    "title": "Uno, Dos, Tres",
+    "tagline": "Apprenez à compter les toutes premières choses."
+  },
+  "words": [
+    {
+      "word": "Uno",
+      "translation": "Un",
+      "audio": "audio/uno.mp3"
+    },
+    {
+      "word": "Dos",
+      "translation": "Deux",
+      "audio": "audio/dos.mp3"
+    },
+    {
+      "word": "Tres",
+      "translation": "Trois",
+      "audio": "audio/tres.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Tengo dos hermanos y una hermana.",
+    "french": "J'ai deux frères et une sœur.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Uno Dos Tres",
+    "description": "Une comptine simple pour mémoriser les premiers chiffres.",
+    "audio": "audio/song.mp3"
+  }
+}

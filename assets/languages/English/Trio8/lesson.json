@@ -1,12 +1,10 @@
 {
   "id": "english-trio-8",
   "language": "English",
-
   "card": {
-    "title": "Trio 8",
+    "title": "Good, Morning, Sun",
     "tagline": "Apprenez à accueillir une nouvelle journée avec simplicité."
   },
-
   "words": [
     {
       "word": "Good",
@@ -24,13 +22,11 @@
       "audio": "audio/sun.mp3"
     }
   ],
-
   "sentence": {
     "english": "Good morning, sun.",
     "french": "Bonjour, soleil.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Good Morning Sun",
     "description": "Une chanson lumineuse pour commencer la journée avec douceur.",

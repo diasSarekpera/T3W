@@ -299,6 +299,16 @@ body {
   border-color: var(--c-gold);
 }
 .btn-audio:hover svg { color: #fff; }
+
+/* État "en lecture" — même langage que .btn-play-main.playing,
+   pour que tous les boutons audio de la page réagissent pareil. */
+.btn-audio.playing {
+  background  : var(--c-gold);
+  border-color: var(--c-gold);
+  box-shadow  : 0 4px 14px rgba(155, 110, 47, 0.32);
+}
+.btn-audio.playing svg { color: #fff; }
+
 .btn-audio svg {
   width     : 16px;
   height    : 16px;

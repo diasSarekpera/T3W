@@ -26,7 +26,12 @@
   let currentBtn   = null;
 
   grid.addEventListener('click', (e) => {
-    const btn = e.target.closest('.btn-card-preview[data-audio]');
+    // La flèche "commencer" garde son rôle de navigation, pas de preview ici
+    if (e.target.closest('.card__arrow')) return;
+
+    const card = e.target.closest('.card');
+    if (!card) return;
+    const btn = card.querySelector('.btn-card-preview[data-audio]');
     if (!btn) return;
 
     const src = btn.dataset.audio;

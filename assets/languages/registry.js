@@ -86,6 +86,146 @@ const LESSONS_REGISTRY = [
     basePath: '/assets/languages/English/Trio10'
   },
   {
+    id      : 'english-trio-11',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio11'
+  },
+  {
+    id      : 'english-trio-12',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio12'
+  },
+  {
+    id      : 'english-trio-13',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio13'
+  },
+  {
+    id      : 'english-trio-14',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio14'
+  },
+  {
+    id      : 'english-trio-15',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio15'
+  },
+  {
+    id      : 'english-trio-16',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio16'
+  },
+  {
+    id      : 'english-trio-17',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio17'
+  },
+  {
+    id      : 'english-trio-18',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio18'
+  },
+  {
+    id      : 'english-trio-19',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio19'
+  },
+  {
+    id      : 'english-trio-20',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio20'
+  },
+  {
+    id      : 'english-trio-21',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio21'
+  },
+  {
+    id      : 'english-trio-22',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio22'
+  },
+  {
+    id      : 'english-trio-23',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio23'
+  },
+  {
+    id      : 'english-trio-24',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio24'
+  },
+  {
+    id      : 'english-trio-25',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio25'
+  },
+  {
+    id      : 'english-trio-26',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio26'
+  },
+  {
+    id      : 'english-trio-27',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio27'
+  },
+  {
+    id      : 'english-trio-28',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio28'
+  },
+  {
+    id      : 'english-trio-29',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio29'
+  },
+  {
+    id      : 'english-trio-30',
+    language: 'English',
+    flag    : '🇬🇧',
+    langCode: 'en',
+    basePath: '/assets/languages/English/Trio30'
+  },
+  {
     id      : 'spanish-trio-1',
     language: 'Spanish',
     flag    : '🇪🇸',
@@ -154,5 +294,145 @@ const LESSONS_REGISTRY = [
     flag    : '🇪🇸',
     langCode: 'es',
     basePath: '/assets/languages/Spanish/Trio10'
+  },
+  {
+    id      : 'spanish-trio-11',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio11'
+  },
+  {
+    id      : 'spanish-trio-12',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio12'
+  },
+  {
+    id      : 'spanish-trio-13',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio13'
+  },
+  {
+    id      : 'spanish-trio-14',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio14'
+  },
+  {
+    id      : 'spanish-trio-15',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio15'
+  },
+  {
+    id      : 'spanish-trio-16',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio16'
+  },
+  {
+    id      : 'spanish-trio-17',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio17'
+  },
+  {
+    id      : 'spanish-trio-18',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio18'
+  },
+  {
+    id      : 'spanish-trio-19',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio19'
+  },
+  {
+    id      : 'spanish-trio-20',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio20'
+  },
+  {
+    id      : 'spanish-trio-21',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio21'
+  },
+  {
+    id      : 'spanish-trio-22',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio22'
+  },
+  {
+    id      : 'spanish-trio-23',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio23'
+  },
+  {
+    id      : 'spanish-trio-24',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio24'
+  },
+  {
+    id      : 'spanish-trio-25',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio25'
+  },
+  {
+    id      : 'spanish-trio-26',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio26'
+  },
+  {
+    id      : 'spanish-trio-27',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio27'
+  },
+  {
+    id      : 'spanish-trio-28',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio28'
+  },
+  {
+    id      : 'spanish-trio-29',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio29'
+  },
+  {
+    id      : 'spanish-trio-30',
+    language: 'Spanish',
+    flag    : '🇪🇸',
+    langCode: 'es',
+    basePath: '/assets/languages/Spanish/Trio30'
   }
 ];

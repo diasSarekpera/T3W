@@ -1,12 +1,10 @@
 {
   "id": "english-trio-1",
   "language": "English",
-
   "card": {
-    "title": "Trio 1",
+    "title": "Hello, Friend, Today",
     "tagline": "Apprenez à saluer quelqu'un et parler du moment présent."
   },
-
   "words": [
     {
       "word": "Hello",
@@ -24,19 +22,14 @@
       "audio": "audio/today.mp3"
     }
   ],
-
   "sentence": {
     "english": "Hello my friend, today is a beautiful day.",
     "french": "Bonjour mon ami, aujourd'hui est une belle journée.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Hello Friend Today",
     "description": "Une chanson douce pour mémoriser naturellement les trois mots du trio.",
     "audio": "audio/song.mp3"
   }
 }
-
-
-

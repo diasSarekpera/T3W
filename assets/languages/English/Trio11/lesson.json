@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-11",
+  "language": "English",
+  "card": {
+    "title": "Cold, Warm, Outside",
+    "tagline": "Apprenez à parler du temps qu'il fait."
+  },
+  "words": [
+    {
+      "word": "Cold",
+      "translation": "Froid",
+      "audio": "audio/cold.mp3"
+    },
+    {
+      "word": "Warm",
+      "translation": "Chaud",
+      "audio": "audio/warm.mp3"
+    },
+    {
+      "word": "Outside",
+      "translation": "Dehors",
+      "audio": "audio/outside.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "It's cold outside today.",
+    "french": "Il fait froid dehors aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Cold Warm Outside",
+    "description": "Une chanson légère pour parler de la météo du jour.",
+    "audio": "audio/song.mp3"
+  }
+}

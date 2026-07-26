@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-27",
+  "language": "Spanish",
+  "card": {
+    "title": "Vaya, Realmente, Increíble",
+    "tagline": "Apprenez à réagir avec enthousiasme."
+  },
+  "words": [
+    {
+      "word": "Vaya",
+      "translation": "Waouh",
+      "audio": "audio/vaya.mp3"
+    },
+    {
+      "word": "Realmente",
+      "translation": "Vraiment",
+      "audio": "audio/realmente.mp3"
+    },
+    {
+      "word": "Increíble",
+      "translation": "Incroyable",
+      "audio": "audio/increible.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "¡Vaya, esto es realmente increíble!",
+    "french": "Waouh, c'est vraiment incroyable !",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Vaya Realmente Increíble",
+    "description": "Une chanson pleine d'énergie pour exprimer sa surprise.",
+    "audio": "audio/song.mp3"
+  }
+}

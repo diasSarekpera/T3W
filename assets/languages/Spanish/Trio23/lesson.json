@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-23",
+  "language": "Spanish",
+  "card": {
+    "title": "Viajar, Ver, Mundo",
+    "tagline": "Apprenez à parler de vos envies de voyage."
+  },
+  "words": [
+    {
+      "word": "Viajar",
+      "translation": "Voyager",
+      "audio": "audio/viajar.mp3"
+    },
+    {
+      "word": "Ver",
+      "translation": "Voir",
+      "audio": "audio/ver.mp3"
+    },
+    {
+      "word": "Mundo",
+      "translation": "Monde",
+      "audio": "audio/mundo.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Quiero viajar y ver el mundo.",
+    "french": "Je veux voyager et voir le monde.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Viajar Ver Mundo",
+    "description": "Une chanson qui donne envie de partir à l'aventure.",
+    "audio": "audio/song.mp3"
+  }
+}

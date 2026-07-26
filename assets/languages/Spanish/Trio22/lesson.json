@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-22",
+  "language": "Spanish",
+  "card": {
+    "title": "Jugar, Deporte, Diversión",
+    "tagline": "Apprenez à parler de vos loisirs."
+  },
+  "words": [
+    {
+      "word": "Jugar",
+      "translation": "Jouer",
+      "audio": "audio/jugar.mp3"
+    },
+    {
+      "word": "Deporte",
+      "translation": "Sport",
+      "audio": "audio/deporte.mp3"
+    },
+    {
+      "word": "Diversión",
+      "translation": "Amusement",
+      "audio": "audio/diversion.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Juego deporte por diversión.",
+    "french": "Je fais du sport pour m'amuser.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Jugar Deporte Diversión",
+    "description": "Une chanson énergique pour parler du sport et du jeu.",
+    "audio": "audio/song.mp3"
+  }
+}

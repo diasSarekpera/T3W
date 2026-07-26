@@ -1,12 +1,10 @@
 {
   "id": "english-trio-4",
   "language": "English",
-
   "card": {
-    "title": "Trio 4",
+    "title": "I, Feel, Happy",
     "tagline": "Apprenez à exprimer simplement ce que vous ressentez."
   },
-
   "words": [
     {
       "word": "I",
@@ -24,17 +22,14 @@
       "audio": "audio/happy.mp3"
     }
   ],
-
   "sentence": {
     "english": "I feel happy.",
     "french": "Je me sens heureux.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "I Feel Happy",
     "description": "Une chanson douce pour apprendre à exprimer ses émotions.",
     "audio": "audio/song.mp3"
   }
 }
-

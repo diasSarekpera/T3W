@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-18",
+  "language": "English",
+  "card": {
+    "title": "Tired, Sad, Angry",
+    "tagline": "Apprenez à exprimer une émotion plus difficile."
+  },
+  "words": [
+    {
+      "word": "Tired",
+      "translation": "Fatigué",
+      "audio": "audio/tired.mp3"
+    },
+    {
+      "word": "Sad",
+      "translation": "Triste",
+      "audio": "audio/sad.mp3"
+    },
+    {
+      "word": "Angry",
+      "translation": "En colère",
+      "audio": "audio/angry.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I feel a little tired today.",
+    "french": "Je me sens un peu fatigué aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Tired Sad Angry",
+    "description": "Une chanson douce pour apprendre à nommer ce qu'on ressent.",
+    "audio": "audio/song.mp3"
+  }
+}

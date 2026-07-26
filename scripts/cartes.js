@@ -44,7 +44,7 @@
             </div>
             <span class="lang-count">${items.length} carte${items.length > 1 ? 's' : ''}</span>
           </div>
-          <div class="cards-grid" data-reveal-group>${cards}</div>
+          <div class="cards-grid">${cards}</div>
         </section>
       `.trim();
     }).join('');
@@ -59,7 +59,12 @@
   let currentBtn   = null;
 
   main.addEventListener('click', (e) => {
-    const btn = e.target.closest('.btn-card-preview[data-audio]');
+    // La flèche "commencer" garde son rôle de navigation, pas de preview ici
+    if (e.target.closest('.card__arrow')) return;
+
+    const card = e.target.closest('.card');
+    if (!card) return;
+    const btn = card.querySelector('.btn-card-preview[data-audio]');
     if (!btn) return;
 
     const src = btn.dataset.audio;

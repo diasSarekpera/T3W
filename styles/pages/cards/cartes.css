@@ -16,155 +16,6 @@
 @import url('../../components/footer.css');
 
 /* ════════════════════════════════════════════
-   HEADER DE LA PAGE CARTES
-════════════════════════════════════════════ */
-
-.header {
-  position  : sticky;
-  top       : 0;
-  z-index   : 200;
-  background: rgba(247, 242, 234, 0.92);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--color-border);
-}
-
-.header__inner {
-  max-width      : 1280px;
-  margin         : 0 auto;
-  padding        : 0 60px;
-  height         : 68px;
-  display        : flex;
-  align-items    : center;
-  justify-content: space-between;
-  gap            : 40px;
-}
-
-/* Logo */
-.header__logo {
-  display    : flex;
-  align-items: baseline;
-  gap        : 9px;
-  flex-shrink: 0;
-}
-.header__logo-mark {
-  font-family   : var(--font-serif);
-  font-size     : 2rem;
-  font-weight   : 300;
-  font-style    : italic;
-  color         : var(--color-gold);
-  letter-spacing: 2px;
-  line-height   : 1;
-}
-.header__logo-mark strong {
-  font-weight: 600;
-  font-style : normal;
-}
-.header__logo-sub {
-  font-family   : var(--font-sans);
-  font-size     : 11px;
-  font-weight   : 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color         : var(--color-text-3);
-}
-
-/* Navigation */
-.header__nav {
-  display        : flex;
-  align-items    : center;
-  gap            : 32px;
-  flex           : 1;
-  justify-content: center;
-}
-.header__nav a {
-  font-family   : var(--font-sans);
-  font-size     : 13.5px;
-  font-weight   : 400;
-  color         : var(--color-text-2);
-  letter-spacing: 0.3px;
-  position      : relative;
-  padding-bottom: 2px;
-  transition    : color var(--dur-hover) var(--ease-standard);
-}
-
-/* Soulignement animé — identique au menu de la page d'accueil */
-.header__nav a::after {
-  content   : '';
-  position  : absolute;
-  left      : 0;
-  right     : 0;
-  bottom    : -2px;
-  height    : 1px;
-  background: var(--color-gold);
-  transform : scaleX(0);
-  transform-origin: center;
-  transition: transform var(--dur-hover) var(--ease-standard);
-}
-.header__nav a:hover { color: var(--color-gold); }
-.header__nav a:hover::after { transform: scaleX(1); }
-
-.header__nav a.active {
-  color      : var(--color-text-1);
-  font-weight: 500;
-}
-.header__nav a.active::after {
-  transform : scaleX(1);
-  background: var(--color-text-3);
-}
-
-/* Actions */
-.header__actions {
-  display    : flex;
-  align-items: center;
-  gap        : 16px;
-  flex-shrink: 0;
-}
-
-/* ── Burger (mobile) — même comportement que .nav-burger ── */
-.header__burger {
-  display        : none;
-  flex-direction : column;
-  justify-content: center;
-  align-items    : center;
-  gap            : 5px;
-  width  : 44px;
-  height : 44px;
-  margin : 0 -11px 0 4px;
-  cursor : pointer;
-  flex-shrink: 0;
-  -webkit-tap-highlight-color: transparent;
-}
-.header__burger span {
-  display      : block;
-  width        : 20px;
-  height       : 1.5px;
-  background   : var(--color-text-2);
-  border-radius: 2px;
-  transition   : transform var(--dur-state) var(--ease-in-out),
-                 opacity var(--dur-hover) var(--ease-standard);
-}
-.header__burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-.header__burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
-.header__burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
-
-/* ── Réutilisation des badges langues ─── */
-.nav-langs {
-  display    : flex;
-  align-items: center;
-  gap        : 6px;
-}
-.nav-lang-badge {
-  font-family: var(--font-sans);
-  font-size  : 12.5px;
-  color      : var(--color-text-3);
-}
-.nav-lang-sep {
-  color    : var(--color-border-2);
-  font-size: 14px;
-}
-
-/* ════════════════════════════════════════════
    HERO DE LA PAGE CARTES
 ════════════════════════════════════════════ */
 
@@ -321,7 +172,6 @@
 .lang-section { padding-top: 56px; }
 
 .lang-section + .lang-section {
-  border-top: 1px solid var(--color-border-soft);
   margin-top : 8px;
 }
 
@@ -383,49 +233,18 @@
 
 /* ── Laptop : resserre les paddings latéraux ── */
 @media (max-width: 1280px) {
-  .header__inner, .page-hero, .filter-bar__inner, .main {
+  .page-hero, .filter-bar__inner, .main {
     padding-left : 32px;
     padding-right: 32px;
   }
 }
 
-/* ── Tablette : la nav bascule en menu déroulant ── */
+/* ── Tablette : la nav bascule en menu déroulant ──
+   (le comportement du menu — bascule, voile, burger —
+   est entièrement géré par .nav dans navbar.css ;
+   seul le filtre sticky doit suivre la même hauteur) ── */
 @media (max-width: 900px) {
-  .header__inner { height: 64px; gap: 16px; }
   .filter-bar { top: 64px; }
-
-  .header__nav {
-    display: none;
-  }
-  .header__nav.open {
-    display        : flex;
-    flex-direction : column;
-    position       : fixed;
-    top            : 64px;
-    left           : 0;
-    right          : 0;
-    max-height     : calc(100dvh - 64px);
-    overflow-y     : auto;
-    background     : rgba(247, 242, 234, 0.98);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    padding        : 24px 24px calc(24px + env(safe-area-inset-bottom));
-    border-bottom  : 1px solid var(--color-border);
-    gap            : 4px;
-    z-index        : 199;
-    box-shadow     : 0 8px 28px rgba(74, 44, 14, 0.14);
-    justify-content: flex-start;
-  }
-  .header__nav.open a {
-    display      : flex;
-    align-items  : center;
-    min-height   : 48px;
-    font-size    : 16px;
-    border-bottom: 1px solid var(--color-border);
-  }
-  .header__nav.open a:last-child { border-bottom: none; }
-
-  .header__burger { display: flex; }
 
   /* Hero de page : empilement, stats en pleine largeur */
   .page-hero {
@@ -445,12 +264,10 @@
 }
 
 @media (max-width: 640px) {
-  .header__inner, .page-hero, .filter-bar__inner, .main {
+  .page-hero, .filter-bar__inner, .main {
     padding-left : 18px;
     padding-right: 18px;
   }
-
-  .nav-langs { display: none; }
 
   .page-hero { padding: 32px 18px 28px; }
   .page-hero__title { font-size: clamp(28px, 8vw, 36px); }

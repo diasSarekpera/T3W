@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-13",
+  "language": "English",
+  "card": {
+    "title": "One, Two, Three",
+    "tagline": "Apprenez à compter les toutes premières choses."
+  },
+  "words": [
+    {
+      "word": "One",
+      "translation": "Un",
+      "audio": "audio/one.mp3"
+    },
+    {
+      "word": "Two",
+      "translation": "Deux",
+      "audio": "audio/two.mp3"
+    },
+    {
+      "word": "Three",
+      "translation": "Trois",
+      "audio": "audio/three.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I have two brothers and one sister.",
+    "french": "J'ai deux frères et une sœur.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "One Two Three",
+    "description": "Une comptine simple pour mémoriser les premiers chiffres.",
+    "audio": "audio/song.mp3"
+  }
+}

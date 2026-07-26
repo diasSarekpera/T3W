@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-29",
+  "language": "English",
+  "card": {
+    "title": "Trust, Care, Together",
+    "tagline": "Apprenez à parler de vos relations avec les autres."
+  },
+  "words": [
+    {
+      "word": "Trust",
+      "translation": "Confiance",
+      "audio": "audio/trust.mp3"
+    },
+    {
+      "word": "Care",
+      "translation": "Prendre soin",
+      "audio": "audio/care.mp3"
+    },
+    {
+      "word": "Together",
+      "translation": "Ensemble",
+      "audio": "audio/together.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "We care for each other, together.",
+    "french": "Nous prenons soin l'un de l'autre, ensemble.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Trust Care Together",
+    "description": "Une chanson chaleureuse sur les liens qui nous unissent.",
+    "audio": "audio/song.mp3"
+  }
+}

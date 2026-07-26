@@ -1,12 +1,10 @@
 {
   "id": "english-trio-7",
   "language": "English",
-
   "card": {
-    "title": "Trio 7",
+    "title": "My, Family, Home",
     "tagline": "Apprenez à parler de ce qui vous est cher."
   },
-
   "words": [
     {
       "word": "My",
@@ -24,13 +22,11 @@
       "audio": "audio/home.mp3"
     }
   ],
-
   "sentence": {
     "english": "My family is home.",
     "french": "Ma famille est à la maison.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "My Family Home",
     "description": "Une chanson chaleureuse autour de la famille et du foyer.",

@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-15",
+  "language": "Spanish",
+  "card": {
+    "title": "Cabeza, Mano, Pie",
+    "tagline": "Apprenez les premiers mots pour parler du corps."
+  },
+  "words": [
+    {
+      "word": "Cabeza",
+      "translation": "Tête",
+      "audio": "audio/cabeza.mp3"
+    },
+    {
+      "word": "Mano",
+      "translation": "Main",
+      "audio": "audio/mano.mp3"
+    },
+    {
+      "word": "Pie",
+      "translation": "Pied",
+      "audio": "audio/pie.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Me duele un poco la mano.",
+    "french": "Ma main me fait un peu mal.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Cabeza Mano Pie",
+    "description": "Une chanson enjouée pour nommer les parties du corps.",
+    "audio": "audio/song.mp3"
+  }
+}

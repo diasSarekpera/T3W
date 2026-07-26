@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-12",
+  "language": "Spanish",
+  "card": {
+    "title": "Izquierda, Derecha, Recto",
+    "tagline": "Apprenez à donner et comprendre une direction simple."
+  },
+  "words": [
+    {
+      "word": "Izquierda",
+      "translation": "Gauche",
+      "audio": "audio/izquierda.mp3"
+    },
+    {
+      "word": "Derecha",
+      "translation": "Droite",
+      "audio": "audio/derecha.mp3"
+    },
+    {
+      "word": "Recto",
+      "translation": "Tout droit",
+      "audio": "audio/recto.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Gira a la izquierda y sigue recto.",
+    "french": "Tournez à gauche puis continuez tout droit.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Izquierda Derecha Recto",
+    "description": "Une chanson rythmée pour retenir les directions de base.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-21",
+  "language": "Spanish",
+  "card": {
+    "title": "Cuarto, Puerta, Llave",
+    "tagline": "Apprenez à parler de son logement."
+  },
+  "words": [
+    {
+      "word": "Cuarto",
+      "translation": "Chambre / Pièce",
+      "audio": "audio/cuarto.mp3"
+    },
+    {
+      "word": "Puerta",
+      "translation": "Porte",
+      "audio": "audio/puerta.mp3"
+    },
+    {
+      "word": "Llave",
+      "translation": "Clé",
+      "audio": "audio/llave.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "¿Dónde está la llave de la puerta?",
+    "french": "Où est la clé de la porte ?",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Cuarto Puerta Llave",
+    "description": "Une chanson simple pour parler de la maison.",
+    "audio": "audio/song.mp3"
+  }
+}

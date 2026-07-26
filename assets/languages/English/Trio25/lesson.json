@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-25",
+  "language": "English",
+  "card": {
+    "title": "Why, How, When",
+    "tagline": "Apprenez à poser une question simple."
+  },
+  "words": [
+    {
+      "word": "Why",
+      "translation": "Pourquoi",
+      "audio": "audio/why.mp3"
+    },
+    {
+      "word": "How",
+      "translation": "Comment",
+      "audio": "audio/how.mp3"
+    },
+    {
+      "word": "When",
+      "translation": "Quand",
+      "audio": "audio/when.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "Why are you leaving, and when?",
+    "french": "Pourquoi pars-tu, et quand ?",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Why How When",
+    "description": "Une chanson curieuse pour apprendre à poser des questions.",
+    "audio": "audio/song.mp3"
+  }
+}

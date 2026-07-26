@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-27",
+  "language": "English",
+  "card": {
+    "title": "Wow, Really, Amazing",
+    "tagline": "Apprenez à réagir avec enthousiasme."
+  },
+  "words": [
+    {
+      "word": "Wow",
+      "translation": "Waouh",
+      "audio": "audio/wow.mp3"
+    },
+    {
+      "word": "Really",
+      "translation": "Vraiment",
+      "audio": "audio/really.mp3"
+    },
+    {
+      "word": "Amazing",
+      "translation": "Incroyable",
+      "audio": "audio/amazing.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "Wow, this is really amazing!",
+    "french": "Waouh, c'est vraiment incroyable !",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Wow Really Amazing",
+    "description": "Une chanson pleine d'énergie pour exprimer sa surprise.",
+    "audio": "audio/song.mp3"
+  }
+}

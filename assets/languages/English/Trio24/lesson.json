@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-24",
+  "language": "English",
+  "card": {
+    "title": "Better, More, Less",
+    "tagline": "Apprenez à comparer deux choses simplement."
+  },
+  "words": [
+    {
+      "word": "Better",
+      "translation": "Meilleur",
+      "audio": "audio/better.mp3"
+    },
+    {
+      "word": "More",
+      "translation": "Plus",
+      "audio": "audio/more.mp3"
+    },
+    {
+      "word": "Less",
+      "translation": "Moins",
+      "audio": "audio/less.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "This one is better than that one.",
+    "french": "Celui-ci est meilleur que celui-là.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Better More Less",
+    "description": "Une chanson légère pour apprendre à comparer.",
+    "audio": "audio/song.mp3"
+  }
+}

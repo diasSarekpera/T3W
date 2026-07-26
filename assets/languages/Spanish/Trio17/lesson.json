@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-17",
+  "language": "Spanish",
+  "card": {
+    "title": "Coche, Autobús, Tren",
+    "tagline": "Apprenez à parler des moyens de transport."
+  },
+  "words": [
+    {
+      "word": "Coche",
+      "translation": "Voiture",
+      "audio": "audio/coche.mp3"
+    },
+    {
+      "word": "Autobús",
+      "translation": "Bus",
+      "audio": "audio/autobus.mp3"
+    },
+    {
+      "word": "Tren",
+      "translation": "Train",
+      "audio": "audio/tren.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Tomo el tren para ir al trabajo.",
+    "french": "Je prends le train pour aller au travail.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Coche Autobús Tren",
+    "description": "Une chanson entraînante sur les transports du quotidien.",
+    "audio": "audio/song.mp3"
+  }
+}

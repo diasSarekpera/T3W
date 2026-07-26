@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-9",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 9",
+    "title": "Gracias, Tú, Sonrisa",
     "tagline": "Apprenez à remercier et partager de la gentillesse."
   },
-
   "words": [
     {
       "word": "Gracias",
@@ -24,13 +22,11 @@
       "audio": "audio/sonrisa.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Gracias por tu sonrisa.",
     "french": "Merci pour ton sourire.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Gracias Tu Sonrisa",
     "description": "Une chanson chaleureuse pour apprendre à remercier.",

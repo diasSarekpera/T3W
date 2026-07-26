@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-16",
+  "language": "Spanish",
+  "card": {
+    "title": "Rojo, Azul, Verde",
+    "tagline": "Apprenez à nommer les couleurs essentielles."
+  },
+  "words": [
+    {
+      "word": "Rojo",
+      "translation": "Rouge",
+      "audio": "audio/rojo.mp3"
+    },
+    {
+      "word": "Azul",
+      "translation": "Bleu",
+      "audio": "audio/azul.mp3"
+    },
+    {
+      "word": "Verde",
+      "translation": "Vert",
+      "audio": "audio/verde.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Me gusta el cielo azul y el pasto verde.",
+    "french": "J'aime le ciel bleu et l'herbe verte.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Rojo Azul Verde",
+    "description": "Une chanson colorée pour retenir les couleurs facilement.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-28",
+  "language": "Spanish",
+  "card": {
+    "title": "Ayer, Ahora, Mañana",
+    "tagline": "Apprenez à situer un moment dans le temps."
+  },
+  "words": [
+    {
+      "word": "Ayer",
+      "translation": "Hier",
+      "audio": "audio/ayer.mp3"
+    },
+    {
+      "word": "Ahora",
+      "translation": "Maintenant",
+      "audio": "audio/ahora.mp3"
+    },
+    {
+      "word": "Mañana",
+      "translation": "Demain",
+      "audio": "audio/manana.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Ayer ya pasó, mañana llegará.",
+    "french": "Hier est passé, demain viendra.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Ayer Ahora Mañana",
+    "description": "Une chanson douce sur le passage du temps.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-14",
+  "language": "Spanish",
+  "card": {
+    "title": "Cuánto, Cuesta, Dinero",
+    "tagline": "Apprenez à demander un prix simplement."
+  },
+  "words": [
+    {
+      "word": "Cuánto",
+      "translation": "Combien",
+      "audio": "audio/cuanto.mp3"
+    },
+    {
+      "word": "Cuesta",
+      "translation": "Coûte",
+      "audio": "audio/cuesta.mp3"
+    },
+    {
+      "word": "Dinero",
+      "translation": "Argent",
+      "audio": "audio/dinero.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "¿Cuánto cuesta esto?",
+    "french": "Combien ça coûte ?",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Cuánto Cuesta Dinero",
+    "description": "Une chanson pratique pour apprendre à demander un prix.",
+    "audio": "audio/song.mp3"
+  }
+}

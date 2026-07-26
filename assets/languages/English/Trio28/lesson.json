@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-28",
+  "language": "English",
+  "card": {
+    "title": "Yesterday, Now, Tomorrow",
+    "tagline": "Apprenez à situer un moment dans le temps."
+  },
+  "words": [
+    {
+      "word": "Yesterday",
+      "translation": "Hier",
+      "audio": "audio/yesterday.mp3"
+    },
+    {
+      "word": "Now",
+      "translation": "Maintenant",
+      "audio": "audio/now.mp3"
+    },
+    {
+      "word": "Tomorrow",
+      "translation": "Demain",
+      "audio": "audio/tomorrow.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "Yesterday is gone, tomorrow will come.",
+    "french": "Hier est passé, demain viendra.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Yesterday Now Tomorrow",
+    "description": "Une chanson douce sur le passage du temps.",
+    "audio": "audio/song.mp3"
+  }
+}

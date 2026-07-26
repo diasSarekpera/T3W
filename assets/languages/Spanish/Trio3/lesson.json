@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-3",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 3",
+    "title": "Me, Gusta, Música",
     "tagline": "Apprenez à parler de ce que vous aimez."
   },
-
   "words": [
     {
       "word": "Me",
@@ -24,13 +22,11 @@
       "audio": "audio/musica.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Me gusta la música.",
     "french": "J'aime la musique.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Me Gusta Música",
     "description": "Une chanson douce pour mémoriser une expression très utilisée en espagnol.",

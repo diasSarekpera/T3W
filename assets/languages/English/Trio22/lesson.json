@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-22",
+  "language": "English",
+  "card": {
+    "title": "Play, Sport, Fun",
+    "tagline": "Apprenez à parler de vos loisirs."
+  },
+  "words": [
+    {
+      "word": "Play",
+      "translation": "Jouer",
+      "audio": "audio/play.mp3"
+    },
+    {
+      "word": "Sport",
+      "translation": "Sport",
+      "audio": "audio/sport.mp3"
+    },
+    {
+      "word": "Fun",
+      "translation": "Amusant",
+      "audio": "audio/fun.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I play sport for fun.",
+    "french": "Je fais du sport pour m'amuser.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Play Sport Fun",
+    "description": "Une chanson énergique pour parler du sport et du jeu.",
+    "audio": "audio/song.mp3"
+  }
+}

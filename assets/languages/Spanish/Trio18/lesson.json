@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-18",
+  "language": "Spanish",
+  "card": {
+    "title": "Cansado, Triste, Enojado",
+    "tagline": "Apprenez à exprimer une émotion plus difficile."
+  },
+  "words": [
+    {
+      "word": "Cansado",
+      "translation": "Fatigué",
+      "audio": "audio/cansado.mp3"
+    },
+    {
+      "word": "Triste",
+      "translation": "Triste",
+      "audio": "audio/triste.mp3"
+    },
+    {
+      "word": "Enojado",
+      "translation": "En colère",
+      "audio": "audio/enojado.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Hoy me siento un poco cansado.",
+    "french": "Je me sens un peu fatigué aujourd'hui.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Cansado Triste Enojado",
+    "description": "Une chanson douce pour apprendre à nommer ce qu'on ressent.",
+    "audio": "audio/song.mp3"
+  }
+}

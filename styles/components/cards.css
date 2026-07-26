@@ -113,11 +113,19 @@
   justify-content: center;
   color          : var(--color-gold);
   transition     : background var(--dur-hover) var(--ease-standard),
+                    color var(--dur-hover) var(--ease-standard),
                     transform var(--dur-hover) var(--ease-standard);
 }
 .card__icon-btn:hover {
   background: #ddd3be;
   transform : scale(1.06);
+}
+
+/* État "en lecture" — même langage doré que le reste du site */
+.card__icon-btn.playing {
+  background: var(--color-gold);
+  color     : #fff;
+  box-shadow: 0 4px 14px rgba(155, 110, 47, 0.3);
 }
 .card__icon-btn svg {
   width     : 15px;

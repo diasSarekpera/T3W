@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-7",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 7",
+    "title": "Mi, Familia, Casa",
     "tagline": "Apprenez à parler de ce qui vous est cher."
   },
-
   "words": [
     {
       "word": "Mi",
@@ -24,13 +22,11 @@
       "audio": "audio/casa.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Mi familia está en casa.",
     "french": "Ma famille est à la maison.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Mi Familia Casa",
     "description": "Une chanson chaleureuse autour de la famille et du foyer.",

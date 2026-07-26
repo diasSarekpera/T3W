@@ -1,12 +1,10 @@
 {
   "id": "english-trio-5",
   "language": "English",
-
   "card": {
-    "title": "Trio 5",
+    "title": "Eat, Drink, Water",
     "tagline": "Apprenez à parler de besoins essentiels du quotidien."
   },
-
   "words": [
     {
       "word": "Eat",
@@ -24,18 +22,14 @@
       "audio": "audio/water.mp3"
     }
   ],
-
   "sentence": {
     "english": "I drink water.",
     "french": "Je bois de l'eau.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Eat Drink Water",
     "description": "Une chanson agréable pour mémoriser des mots utiles au quotidien.",
     "audio": "audio/song.mp3"
   }
 }
-
-

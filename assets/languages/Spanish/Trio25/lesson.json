@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-25",
+  "language": "Spanish",
+  "card": {
+    "title": "Por qué, Cómo, Cuándo",
+    "tagline": "Apprenez à poser une question simple."
+  },
+  "words": [
+    {
+      "word": "Por qué",
+      "translation": "Pourquoi",
+      "audio": "audio/por-que.mp3"
+    },
+    {
+      "word": "Cómo",
+      "translation": "Comment",
+      "audio": "audio/como.mp3"
+    },
+    {
+      "word": "Cuándo",
+      "translation": "Quand",
+      "audio": "audio/cuando.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "¿Por qué te vas, y cuándo?",
+    "french": "Pourquoi pars-tu, et quand ?",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Por Qué Cómo Cuándo",
+    "description": "Une chanson curieuse pour apprendre à poser des questions.",
+    "audio": "audio/song.mp3"
+  }
+}

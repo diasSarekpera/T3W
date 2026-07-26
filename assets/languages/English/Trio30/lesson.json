@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-30",
+  "language": "English",
+  "card": {
+    "title": "Goodbye, See you, Soon",
+    "tagline": "Apprenez à dire au revoir avec chaleur."
+  },
+  "words": [
+    {
+      "word": "Goodbye",
+      "translation": "Au revoir",
+      "audio": "audio/goodbye.mp3"
+    },
+    {
+      "word": "See you",
+      "translation": "On se voit / À bientôt",
+      "audio": "audio/see-you.mp3"
+    },
+    {
+      "word": "Soon",
+      "translation": "Bientôt",
+      "audio": "audio/soon.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "Goodbye, see you soon!",
+    "french": "Au revoir, à bientôt !",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Goodbye See You Soon",
+    "description": "Une chanson douce pour clore un apprentissage en beauté.",
+    "audio": "audio/song.mp3"
+  }
+}

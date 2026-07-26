@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-23",
+  "language": "English",
+  "card": {
+    "title": "Travel, See, World",
+    "tagline": "Apprenez à parler de vos envies de voyage."
+  },
+  "words": [
+    {
+      "word": "Travel",
+      "translation": "Voyager",
+      "audio": "audio/travel.mp3"
+    },
+    {
+      "word": "See",
+      "translation": "Voir",
+      "audio": "audio/see.mp3"
+    },
+    {
+      "word": "World",
+      "translation": "Monde",
+      "audio": "audio/world.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I want to travel and see the world.",
+    "french": "Je veux voyager et voir le monde.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Travel See World",
+    "description": "Une chanson qui donne envie de partir à l'aventure.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-5",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 5",
+    "title": "Comer, Beber, Agua",
     "tagline": "Apprenez à parler de besoins essentiels du quotidien."
   },
-
   "words": [
     {
       "word": "Comer",
@@ -24,13 +22,11 @@
       "audio": "audio/agua.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Bebo agua.",
     "french": "Je bois de l'eau.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Comer Beber Agua",
     "description": "Une chanson agréable pour mémoriser des mots utiles au quotidien.",

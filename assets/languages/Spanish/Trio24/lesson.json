@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-24",
+  "language": "Spanish",
+  "card": {
+    "title": "Mejor, Más, Menos",
+    "tagline": "Apprenez à comparer deux choses simplement."
+  },
+  "words": [
+    {
+      "word": "Mejor",
+      "translation": "Meilleur",
+      "audio": "audio/mejor.mp3"
+    },
+    {
+      "word": "Más",
+      "translation": "Plus",
+      "audio": "audio/mas.mp3"
+    },
+    {
+      "word": "Menos",
+      "translation": "Moins",
+      "audio": "audio/menos.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Este es mejor que aquel.",
+    "french": "Celui-ci est meilleur que celui-là.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Mejor Más Menos",
+    "description": "Une chanson légère pour apprendre à comparer.",
+    "audio": "audio/song.mp3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-20",
+  "language": "Spanish",
+  "card": {
+    "title": "Teléfono, Mensaje, Internet",
+    "tagline": "Apprenez à parler des outils numériques du quotidien."
+  },
+  "words": [
+    {
+      "word": "Teléfono",
+      "translation": "Téléphone",
+      "audio": "audio/telefono.mp3"
+    },
+    {
+      "word": "Mensaje",
+      "translation": "Message",
+      "audio": "audio/mensaje.mp3"
+    },
+    {
+      "word": "Internet",
+      "translation": "Internet",
+      "audio": "audio/internet.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Envío un mensaje desde mi teléfono.",
+    "french": "J'envoie un message depuis mon téléphone.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Teléfono Mensaje Internet",
+    "description": "Une chanson moderne sur nos habitudes numériques.",
+    "audio": "audio/song.mp3"
+  }
+}

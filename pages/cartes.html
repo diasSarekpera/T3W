@@ -19,36 +19,32 @@
   <!-- ════════════════════════════════
        NAVIGATION
   ════════════════════════════════ -->
-  <header class="header" role="banner">
-    <div class="header__inner">
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <a href="/" class="nav-logo" aria-label="T3W – Accueil">
+      <span class="nav-logo-mark"><strong>T</strong>3<strong>W</strong></span>
+      <span class="nav-logo-sub">The 3 Words</span>
+    </a>
 
-      <a href="/" class="header__logo" aria-label="T3W – Accueil">
-        <span class="header__logo-mark"><strong>T</strong>3<strong>W</strong></span>
-        <span class="header__logo-sub">The 3 Words</span>
-      </a>
-
-      <nav class="header__nav" id="header-nav" data-nav-links aria-label="Navigation principale">
-        <a href="/">Accueil</a>
-        <a href="/pages/cartes.html" class="active">Cartes</a>
-        <a href="/index.html#about">La méthode</a>
-        <a href="/index.html#learn">Apprendre</a>
-      </nav>
-
-      <div class="header__actions">
-        <div class="nav-langs" aria-label="Langues disponibles">
-          <span class="nav-lang-badge">🇬🇧 Anglais</span>
-          <span class="nav-lang-sep" aria-hidden="true">·</span>
-          <span class="nav-lang-badge">🇪🇸 Espagnol</span>
-        </div>
-        <button class="header__burger" data-nav-burger aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="header-nav">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-
+    <div class="nav-links" id="nav-links" data-nav-links>
+      <a href="/">Accueil</a>
+      <a href="/pages/cartes.html" class="active">Cartes</a>
+      <a href="/index.html#about">La méthode</a>
+      <a href="/index.html#learn">Apprendre</a>
     </div>
-  </header>
+
+    <div class="nav-actions">
+      <div class="nav-langs" aria-label="Langues disponibles">
+        <span class="nav-lang-badge">🇬🇧 Anglais</span>
+        <span class="nav-lang-sep" aria-hidden="true">·</span>
+        <span class="nav-lang-badge">🇪🇸 Espagnol</span>
+      </div>
+      <button class="nav-burger" data-nav-burger aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
   <div class="nav-overlay" id="nav-overlay" hidden></div>
 
 
@@ -134,9 +130,6 @@
 
       <div class="footer__brand">
         <a href="/" class="footer__logo" aria-label="T3W – Accueil">
-          <div class="footer__logo-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2 4.13 4.13 3 8 3 8-3.27-3.27-6.86-1.08-10 0z"/></svg>
-          </div>
           <span class="footer__logo-name">T<span>3</span>W</span>
         </a>
         <p class="footer__tagline">The 3 Words - Apprendre une langue, trois mots à la fois.</p>

@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-12",
+  "language": "English",
+  "card": {
+    "title": "Left, Right, Straight",
+    "tagline": "Apprenez à donner et comprendre une direction simple."
+  },
+  "words": [
+    {
+      "word": "Left",
+      "translation": "Gauche",
+      "audio": "audio/left.mp3"
+    },
+    {
+      "word": "Right",
+      "translation": "Droite",
+      "audio": "audio/right.mp3"
+    },
+    {
+      "word": "Straight",
+      "translation": "Tout droit",
+      "audio": "audio/straight.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "Turn left, then go straight.",
+    "french": "Tournez à gauche, puis continuez tout droit.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Left Right Straight",
+    "description": "Une chanson rythmée pour retenir les directions de base.",
+    "audio": "audio/song.mp3"
+  }
+}

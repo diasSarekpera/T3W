@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-14",
+  "language": "English",
+  "card": {
+    "title": "How much, Cost, Money",
+    "tagline": "Apprenez à demander un prix simplement."
+  },
+  "words": [
+    {
+      "word": "How much",
+      "translation": "Combien",
+      "audio": "audio/how-much.mp3"
+    },
+    {
+      "word": "Cost",
+      "translation": "Coûter",
+      "audio": "audio/cost.mp3"
+    },
+    {
+      "word": "Money",
+      "translation": "Argent",
+      "audio": "audio/money.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "How much does it cost?",
+    "french": "Combien ça coûte ?",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "How Much Cost Money",
+    "description": "Une chanson pratique pour apprendre à demander un prix.",
+    "audio": "audio/song.mp3"
+  }
+}

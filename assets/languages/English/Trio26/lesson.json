@@ -1,0 +1,35 @@
+{
+  "id": "english-trio-26",
+  "language": "English",
+  "card": {
+    "title": "I, Think, Maybe",
+    "tagline": "Apprenez à exprimer un avis avec nuance."
+  },
+  "words": [
+    {
+      "word": "I",
+      "translation": "Je",
+      "audio": "audio/i.mp3"
+    },
+    {
+      "word": "Think",
+      "translation": "Pense",
+      "audio": "audio/think.mp3"
+    },
+    {
+      "word": "Maybe",
+      "translation": "Peut-être",
+      "audio": "audio/maybe.mp3"
+    }
+  ],
+  "sentence": {
+    "english": "I think maybe you're right.",
+    "french": "Je pense que tu as peut-être raison.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "I Think Maybe",
+    "description": "Une chanson posée pour apprendre à nuancer une opinion.",
+    "audio": "audio/song.mp3"
+  }
+}

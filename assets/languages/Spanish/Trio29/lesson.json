@@ -1,0 +1,35 @@
+{
+  "id": "spanish-trio-29",
+  "language": "Spanish",
+  "card": {
+    "title": "Confianza, Cuidar, Juntos",
+    "tagline": "Apprenez à parler de vos relations avec les autres."
+  },
+  "words": [
+    {
+      "word": "Confianza",
+      "translation": "Confiance",
+      "audio": "audio/confianza.mp3"
+    },
+    {
+      "word": "Cuidar",
+      "translation": "Prendre soin",
+      "audio": "audio/cuidar.mp3"
+    },
+    {
+      "word": "Juntos",
+      "translation": "Ensemble",
+      "audio": "audio/juntos.mp3"
+    }
+  ],
+  "sentence": {
+    "spanish": "Nos cuidamos el uno al otro, juntos.",
+    "french": "Nous prenons soin l'un de l'autre, ensemble.",
+    "audio": "audio/sentence.mp3"
+  },
+  "song": {
+    "title": "Confianza Cuidar Juntos",
+    "description": "Une chanson chaleureuse sur les liens qui nous unissent.",
+    "audio": "audio/song.mp3"
+  }
+}

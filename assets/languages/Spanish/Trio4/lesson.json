@@ -1,12 +1,10 @@
 {
   "id": "spanish-trio-4",
   "language": "Spanish",
-
   "card": {
-    "title": "Trio 4",
+    "title": "Me, Siento, Feliz",
     "tagline": "Apprenez à exprimer simplement ce que vous ressentez."
   },
-
   "words": [
     {
       "word": "Me",
@@ -24,17 +22,14 @@
       "audio": "audio/feliz.mp3"
     }
   ],
-
   "sentence": {
     "spanish": "Me siento feliz.",
     "french": "Je me sens heureux.",
     "audio": "audio/sentence.mp3"
   },
-
   "song": {
     "title": "Me Siento Feliz",
     "description": "Une chanson douce pour apprendre à exprimer ses émotions.",
     "audio": "audio/song.mp3"
   }
 }
-
