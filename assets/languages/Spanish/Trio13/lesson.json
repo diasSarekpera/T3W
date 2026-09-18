@@ -30,6 +30,22 @@
   "song": {
     "title": "Uno Dos Tres",
     "description": "Une comptine simple pour mémoriser les premiers chiffres.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Uno, dos, tres, tan suave, tan pequeño,",
+      "Contando despacio, sin empeño.",
+      "Uno, dos, tres, tan suave, tan pequeño,",
+      "Suave el número, dulce el sueño.",
+      "",
+      "Una estrella, dos en el cielo,",
+      "Tres deseos vuelan sin recelo.",
+      "Uno, dos, tres, una dulce rima,",
+      "Contando suave, hasta arriba.",
+      "",
+      "Uno, dos, tres, tan suave, tan pequeño,",
+      "Contando despacio, sin empeño.",
+      "Uno, dos, tres, tan suave, tan pequeño,",
+      "Suave el número, dulce el sueño."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Travel See World",
     "description": "Une chanson qui donne envie de partir à l'aventure.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "I want to travel, see the world,",
+      "Softly, gently, flag unfurled.",
+      "I want to travel, see the world,",
+      "Every corner, every world.",
+      "",
+      "A distant shore, a rising sun,",
+      "Traveling softly, one by one.",
+      "Travel far and see it all,",
+      "The gentle world, so big, so small.",
+      "",
+      "I want to travel, see the world,",
+      "Softly, gently, flag unfurled.",
+      "I want to travel, see the world,",
+      "Every corner, every world."
+    ]
   }
 }

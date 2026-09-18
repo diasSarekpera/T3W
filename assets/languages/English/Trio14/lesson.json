@@ -30,6 +30,22 @@
   "song": {
     "title": "How Much Cost Money",
     "description": "Une chanson pratique pour apprendre à demander un prix.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "How much, how much does it cost,",
+      "Money counted, never lost.",
+      "How much, how much does it cost,",
+      "Gently given, worth the cost.",
+      "",
+      "A little coin, a gentle price,",
+      "How much money, once or twice.",
+      "How much does it cost today,",
+      "Softly asking, come what may.",
+      "",
+      "How much, how much does it cost,",
+      "Money counted, never lost.",
+      "How much, how much does it cost,",
+      "Gently given, worth the cost."
+    ]
   }
 }

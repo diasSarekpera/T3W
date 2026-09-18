@@ -30,6 +30,22 @@
   "song": {
     "title": "Vaya Realmente Increíble",
     "description": "Une chanson pleine d'énergie pour exprimer sa surprise.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Vaya, vaya, realmente increíble,",
+      "Suave asombro, tan visible.",
+      "Vaya, vaya, realmente increíble,",
+      "Una maravilla, indescriptible.",
+      "",
+      "Una estrella fugaz, un suave sonido,",
+      "Realmente increíble, así lo he sentido.",
+      "Vaya y realmente e increíble también,",
+      "Suave asombro, tú y yo también.",
+      "",
+      "Vaya, vaya, realmente increíble,",
+      "Suave asombro, tan visible.",
+      "Vaya, vaya, realmente increíble,",
+      "Una maravilla, indescriptible."
+    ]
   }
 }

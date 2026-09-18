@@ -30,6 +30,22 @@
   "song": {
     "title": "Eat Drink Water",
     "description": "Une chanson agréable pour mémoriser des mots utiles au quotidien.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Eat a little, drink some water,",
+      "Simple things that help me grow.",
+      "Eat a little, drink some water,",
+      "Softly, slowly, calm and slow.",
+      "",
+      "A glass of water, clear and cool,",
+      "Eating slowly is the rule.",
+      "Drink some water, feel it flow,",
+      "Eat and drink, and gently grow.",
+      "",
+      "Eat a little, drink some water,",
+      "Simple things that help me grow.",
+      "Eat a little, drink some water,",
+      "Softly, slowly, calm and slow."
+    ]
   }
 }

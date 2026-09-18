@@ -30,6 +30,22 @@
   "song": {
     "title": "My Family Home",
     "description": "Une chanson chaleureuse autour de la famille et du foyer.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "My family, my family, my home,",
+      "Warm and gentle, never alone.",
+      "My family, my family, my home,",
+      "This is where my heart has grown.",
+      "",
+      "A quiet room, a candle's glow,",
+      "My family is all I know.",
+      "My family, my home so near,",
+      "Softly whispered, always here.",
+      "",
+      "My family, my family, my home,",
+      "Warm and gentle, never alone.",
+      "My family, my family, my home,",
+      "This is where my heart has grown."
+    ]
   }
 }

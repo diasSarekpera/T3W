@@ -30,6 +30,22 @@
   "song": {
     "title": "Cabeza Mano Pie",
     "description": "Une chanson enjouée pour nommer les parties du corps.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Mi cabeza, mi mano, mi pie,",
+      "Suave crece, ya lo ves.",
+      "Mi cabeza, mi mano, mi pie,",
+      "Crece suave, uno, dos, tres.",
+      "",
+      "Un toque suave, una mano firme,",
+      "Cabeza en alto, sin que se esfume.",
+      "Mi cabeza, mi mano, mi pie pequeño,",
+      "Crece suave, cumple su sueño.",
+      "",
+      "Mi cabeza, mi mano, mi pie,",
+      "Suave crece, ya lo ves.",
+      "Mi cabeza, mi mano, mi pie,",
+      "Crece suave, uno, dos, tres."
+    ]
   }
 }

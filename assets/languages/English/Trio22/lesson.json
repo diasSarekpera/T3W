@@ -30,6 +30,22 @@
   "song": {
     "title": "Play Sport Fun",
     "description": "Une chanson énergique pour parler du sport et du jeu.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Let's play, let's play, a little sport,",
+      "Softly running, running for fun.",
+      "Let's play, let's play, a little sport,",
+      "Under the gentle, shining sun.",
+      "",
+      "A rolling ball, a joyful sound,",
+      "Playing softly, all around.",
+      "Sport and fun, so light, so free,",
+      "Come and play a while with me.",
+      "",
+      "Let's play, let's play, a little sport,",
+      "Softly running, running for fun.",
+      "Let's play, let's play, a little sport,",
+      "Under the gentle, shining sun."
+    ]
   }
 }

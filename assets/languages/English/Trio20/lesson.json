@@ -30,6 +30,22 @@
   "song": {
     "title": "Phone Message Internet",
     "description": "Une chanson moderne sur nos habitudes numériques.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A little phone, a little message,",
+      "Softly sent across the distance.",
+      "A little phone, a little message,",
+      "Internet, our soft assistance.",
+      "",
+      "A gentle buzz, a screen that glows,",
+      "A message sent, and off it goes.",
+      "Phone and message, soft and light,",
+      "Internet through day and night.",
+      "",
+      "A little phone, a little message,",
+      "Softly sent across the distance.",
+      "A little phone, a little message,",
+      "Internet, our soft assistance."
+    ]
   }
 }

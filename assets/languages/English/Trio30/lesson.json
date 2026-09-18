@@ -30,6 +30,22 @@
   "song": {
     "title": "Goodbye See You Soon",
     "description": "Une chanson douce pour clore un apprentissage en beauté.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Goodbye, goodbye, see you soon,",
+      "Softly singing, gentle tune.",
+      "Goodbye, goodbye, see you soon,",
+      "Underneath the same soft moon.",
+      "",
+      "A gentle wave, a soft embrace,",
+      "Goodbye softly, tender grace.",
+      "See you soon, my dear, my friend,",
+      "Goodbye now, until we meet again.",
+      "",
+      "Goodbye, goodbye, see you soon,",
+      "Softly singing, gentle tune.",
+      "Goodbye, goodbye, see you soon,",
+      "Underneath the same soft moon."
+    ]
   }
 }

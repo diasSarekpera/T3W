@@ -30,6 +30,22 @@
   "song": {
     "title": "Buenos Días Sol",
     "description": "Une chanson lumineuse pour commencer la journée avec douceur.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Buenos días, buenos días, sol,",
+      "Suave luz, dulce arrebol.",
+      "Buenos días, buenos días, sol,",
+      "Un nuevo día, sin dolor.",
+      "",
+      "El cielo dorado, el pájaro canta,",
+      "Buenos días, la vida encanta.",
+      "Buenos días, sol tan calmo,",
+      "Buenos días, todo en calma.",
+      "",
+      "Buenos días, buenos días, sol,",
+      "Suave luz, dulce arrebol.",
+      "Buenos días, buenos días, sol,",
+      "Un nuevo día, sin dolor."
+    ]
   }
 }

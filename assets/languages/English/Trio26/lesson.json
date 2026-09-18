@@ -30,6 +30,22 @@
   "song": {
     "title": "I Think Maybe",
     "description": "Une chanson posée pour apprendre à nuancer une opinion.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "I think, maybe, I think, maybe,",
+      "Softly wondering, calm and steady.",
+      "I think, maybe, I think, maybe,",
+      "Gentle thoughts are always ready.",
+      "",
+      "A quiet thought, a soft maybe,",
+      "I think perhaps, so gently, maybe.",
+      "I think, maybe, soft and slow,",
+      "These little thoughts will come and go.",
+      "",
+      "I think, maybe, I think, maybe,",
+      "Softly wondering, calm and steady.",
+      "I think, maybe, I think, maybe,",
+      "Gentle thoughts are always ready."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "I Am Peter",
     "description": "Une chanson simple pour apprendre à se présenter en anglais.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "I am, I am, I am Peter,",
+      "Softly saying who I am.",
+      "I am, I am, my name is Peter,",
+      "Nice to meet you, here I am.",
+      "",
+      "A gentle voice, a name to share,",
+      "I am Peter, standing there.",
+      "I am, I am, so calm, so clear,",
+      "My name is Peter, have no fear.",
+      "",
+      "I am, I am, I am Peter,",
+      "Softly saying who I am.",
+      "I am, I am, my name is Peter,",
+      "Nice to meet you, here I am."
+    ]
   }
 }

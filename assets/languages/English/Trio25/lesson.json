@@ -30,6 +30,22 @@
   "song": {
     "title": "Why How When",
     "description": "Une chanson curieuse pour apprendre à poser des questions.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Why, oh why, and how, and when,",
+      "Softly asking, once again.",
+      "Why, oh why, and how, and when,",
+      "Gentle questions, now and then.",
+      "",
+      "A curious mind, a gentle voice,",
+      "Asking why is such a choice.",
+      "Why and how and when we meet,",
+      "Softly asking, oh so sweet.",
+      "",
+      "Why, oh why, and how, and when,",
+      "Softly asking, once again.",
+      "Why, oh why, and how, and when,",
+      "Gentle questions, now and then."
+    ]
   }
 }

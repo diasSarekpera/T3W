@@ -30,6 +30,22 @@
   "song": {
     "title": "Cuarto Puerta Llave",
     "description": "Une chanson simple pour parler de la maison.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Un cuarto pequeño, una puerta,",
+      "Una llave suave, siempre alerta.",
+      "Un cuarto pequeño, una puerta,",
+      "Suave se abre, la puerta abierta.",
+      "",
+      "Un cuarto callado, una puerta de madera,",
+      "Una llave plateada, de cualquier manera.",
+      "Cuarto y puerta y llave pequeña,",
+      "Suave se abre, dulce seña.",
+      "",
+      "Un cuarto pequeño, una puerta,",
+      "Una llave suave, siempre alerta.",
+      "Un cuarto pequeño, una puerta,",
+      "Suave se abre, la puerta abierta."
+    ]
   }
 }

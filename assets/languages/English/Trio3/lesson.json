@@ -30,6 +30,22 @@
   "song": {
     "title": "I Like Music",
     "description": "Une chanson douce pour mémoriser l'expression de ses goûts.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "I like, I like, I like music,",
+      "Soft notes falling like the rain.",
+      "I like, I like, I like music,",
+      "Singing softly, sweet refrain.",
+      "",
+      "A gentle tune, a quiet song,",
+      "I like music all night long.",
+      "I like, I like, it makes me smile,",
+      "Music stays with me a while.",
+      "",
+      "I like, I like, I like music,",
+      "Soft notes falling like the rain.",
+      "I like, I like, I like music,",
+      "Singing softly, sweet refrain."
+    ]
   }
 }

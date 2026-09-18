@@ -30,6 +30,22 @@
   "song": {
     "title": "Trust Care Together",
     "description": "Une chanson chaleureuse sur les liens qui nous unissent.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Trust and care, we're together,",
+      "Softly, gently, come what weather.",
+      "Trust and care, we're together,",
+      "Hand in hand, we walk together.",
+      "",
+      "A gentle trust, a caring hand,",
+      "Together softly, we will stand.",
+      "Trust and care and stay together,",
+      "Softly, always, come what weather.",
+      "",
+      "Trust and care, we're together,",
+      "Softly, gently, come what weather.",
+      "Trust and care, we're together,",
+      "Hand in hand, we walk together."
+    ]
   }
 }

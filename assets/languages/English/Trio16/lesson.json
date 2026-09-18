@@ -30,6 +30,22 @@
   "song": {
     "title": "Red Blue Green",
     "description": "Une chanson colorée pour retenir les couleurs facilement.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Red and blue and gentle green,",
+      "Softest colors ever seen.",
+      "Red and blue and gentle green,",
+      "Painting softly in between.",
+      "",
+      "A red rose blooms, a blue sky sighs,",
+      "Green grass softly meets my eyes.",
+      "Red and blue and green so bright,",
+      "Colors dancing in the light.",
+      "",
+      "Red and blue and gentle green,",
+      "Softest colors ever seen.",
+      "Red and blue and gentle green,",
+      "Painting softly in between."
+    ]
   }
 }

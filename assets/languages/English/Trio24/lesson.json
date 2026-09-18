@@ -30,6 +30,22 @@
   "song": {
     "title": "Better More Less",
     "description": "Une chanson légère pour apprendre à comparer.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A little better, more or less,",
+      "Softly learning, gentle guess.",
+      "A little better, more or less,",
+      "Choosing softly, we progress.",
+      "",
+      "This one's better, that one's less,",
+      "More or better, we confess.",
+      "Better, more, or less, my friend,",
+      "Softly choosing, in the end.",
+      "",
+      "A little better, more or less,",
+      "Softly learning, gentle guess.",
+      "A little better, more or less,",
+      "Choosing softly, we progress."
+    ]
   }
 }

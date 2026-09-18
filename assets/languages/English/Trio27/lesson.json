@@ -30,6 +30,22 @@
   "song": {
     "title": "Wow Really Amazing",
     "description": "Une chanson pleine d'énergie pour exprimer sa surprise.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Wow, oh wow, really amazing,",
+      "Softly, gently, we are gazing.",
+      "Wow, oh wow, really amazing,",
+      "Such a wonder, so amazing.",
+      "",
+      "A shooting star, a gentle sound,",
+      "Really amazing, all around.",
+      "Wow and really and amazing too,",
+      "Softly wondering, me and you.",
+      "",
+      "Wow, oh wow, really amazing,",
+      "Softly, gently, we are gazing.",
+      "Wow, oh wow, really amazing,",
+      "Such a wonder, so amazing."
+    ]
   }
 }

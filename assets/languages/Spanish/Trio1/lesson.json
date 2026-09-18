@@ -30,6 +30,22 @@
   "song": {
     "title": "Hola Amigo Hoy",
     "description": "Une chanson agréable pour découvrir vos premiers mots espagnols.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Hola, hola, hola amigo,",
+      "Hoy el sol nos va a abrazar.",
+      "Hola, hola, ven conmigo,",
+      "Hoy juntos vamos a cantar.",
+      "",
+      "El cielo es claro, el aire es puro,",
+      "Hoy es un día bueno y seguro.",
+      "Hola, hola, mi buen amigo,",
+      "Hoy la vida está contigo.",
+      "",
+      "Hola, hola, hola amigo,",
+      "Hoy el sol nos va a abrazar.",
+      "Hola, hola, ven conmigo,",
+      "Hoy juntos vamos a cantar."
+    ]
   }
 }

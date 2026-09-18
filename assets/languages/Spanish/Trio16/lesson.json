@@ -30,6 +30,22 @@
   "song": {
     "title": "Rojo Azul Verde",
     "description": "Une chanson colorée pour retenir les couleurs facilement.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Rojo y azul y verde suave,",
+      "Los colores más dulces que sabe.",
+      "Rojo y azul y verde suave,",
+      "Pintan despacio, nada grave.",
+      "",
+      "Una rosa roja, un cielo azul,",
+      "Verde el pasto, lleno de luz.",
+      "Rojo y azul y verde brillante,",
+      "Colores suaves, un momento radiante.",
+      "",
+      "Rojo y azul y verde suave,",
+      "Los colores más dulces que sabe.",
+      "Rojo y azul y verde suave,",
+      "Pintan despacio, nada grave."
+    ]
   }
 }

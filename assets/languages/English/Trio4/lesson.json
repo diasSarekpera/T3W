@@ -30,6 +30,22 @@
   "song": {
     "title": "I Feel Happy",
     "description": "Une chanson douce pour apprendre à exprimer ses émotions.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "I feel, I feel, I feel happy,",
+      "Warm inside like morning light.",
+      "I feel, I feel, I feel happy,",
+      "Everything will be alright.",
+      "",
+      "A little smile upon my face,",
+      "Happy feelings, gentle grace.",
+      "I feel, I feel so calm, so free,",
+      "Happy is the way to be.",
+      "",
+      "I feel, I feel, I feel happy,",
+      "Warm inside like morning light.",
+      "I feel, I feel, I feel happy,",
+      "Everything will be alright."
+    ]
   }
 }

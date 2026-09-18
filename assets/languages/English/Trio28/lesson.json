@@ -30,6 +30,22 @@
   "song": {
     "title": "Yesterday Now Tomorrow",
     "description": "Une chanson douce sur le passage du temps.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Yesterday, now, and tomorrow,",
+      "Softly passing, joy and sorrow.",
+      "Yesterday, now, and tomorrow,",
+      "Gentle time we softly borrow.",
+      "",
+      "Yesterday is gone and still,",
+      "Now is here, and always will.",
+      "Tomorrow comes so soft, so slow,",
+      "Yesterday, now, tomorrow's glow.",
+      "",
+      "Yesterday, now, and tomorrow,",
+      "Softly passing, joy and sorrow.",
+      "Yesterday, now, and tomorrow,",
+      "Gentle time we softly borrow."
+    ]
   }
 }

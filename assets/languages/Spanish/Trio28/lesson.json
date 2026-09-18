@@ -30,6 +30,22 @@
   "song": {
     "title": "Ayer Ahora Mañana",
     "description": "Une chanson douce sur le passage du temps.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Ayer, ahora, y mañana,",
+      "Suave el tiempo, sin ninguna prisa.",
+      "Ayer, ahora, y mañana,",
+      "Suave pasa, como una brisa.",
+      "",
+      "Ayer se fue, ahora está aquí,",
+      "Mañana vendrá, así lo sentí.",
+      "Ayer, ahora, mañana también,",
+      "Suave el tiempo, va y viene bien.",
+      "",
+      "Ayer, ahora, y mañana,",
+      "Suave el tiempo, sin ninguna prisa.",
+      "Ayer, ahora, y mañana,",
+      "Suave pasa, como una brisa."
+    ]
   }
 }

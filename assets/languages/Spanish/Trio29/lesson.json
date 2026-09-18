@@ -30,6 +30,22 @@
   "song": {
     "title": "Confianza Cuidar Juntos",
     "description": "Une chanson chaleureuse sur les liens qui nous unissent.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Confianza y cuidado, juntos estamos,",
+      "Suave y cálido, así nos cuidamos.",
+      "Confianza y cuidado, juntos estamos,",
+      "De la mano, juntos caminamos.",
+      "",
+      "Una mano suave, un cuidado sincero,",
+      "Confianza que crece, día tras día entero.",
+      "Confianza y cuidado, mi amigo querido,",
+      "Juntos por siempre, nunca perdido.",
+      "",
+      "Confianza y cuidado, juntos estamos,",
+      "Suave y cálido, así nos cuidamos.",
+      "Confianza y cuidado, juntos estamos,",
+      "De la mano, juntos caminamos."
+    ]
   }
 }

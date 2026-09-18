@@ -30,6 +30,22 @@
   "song": {
     "title": "Cuánto Cuesta Dinero",
     "description": "Une chanson pratique pour apprendre à demander un prix.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Cuánto, cuánto cuesta esto,",
+      "Dinero suave, con buen gesto.",
+      "Cuánto, cuánto cuesta esto,",
+      "Pregunto suave, con respeto.",
+      "",
+      "Una moneda suave, un precio pequeño,",
+      "Cuánto dinero, sin ningún empeño.",
+      "Cuánto cuesta, hoy pregunto yo,",
+      "Suave y calma, la pregunta se dio.",
+      "",
+      "Cuánto, cuánto cuesta esto,",
+      "Dinero suave, con buen gesto.",
+      "Cuánto, cuánto cuesta esto,",
+      "Pregunto suave, con respeto."
+    ]
   }
 }

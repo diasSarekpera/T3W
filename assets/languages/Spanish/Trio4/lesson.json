@@ -30,6 +30,22 @@
   "song": {
     "title": "Me Siento Feliz",
     "description": "Une chanson douce pour apprendre à exprimer ses émotions.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Me siento, me siento feliz,",
+      "Cálido y suave, así lo sentí.",
+      "Me siento, me siento feliz,",
+      "Todo está bien, aquí, así.",
+      "",
+      "Una sonrisa, un cielo azul,",
+      "Me siento feliz, lleno de luz.",
+      "Me siento, me siento tan bien,",
+      "Feliz y suave, siempre también.",
+      "",
+      "Me siento, me siento feliz,",
+      "Cálido y suave, así lo sentí.",
+      "Me siento, me siento feliz,",
+      "Todo está bien, aquí, así."
+    ]
   }
 }

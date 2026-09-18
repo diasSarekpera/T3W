@@ -30,6 +30,22 @@
   "song": {
     "title": "Izquierda Derecha Recto",
     "description": "Une chanson rythmée pour retenir les directions de base.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A la izquierda, a la derecha, recto,",
+      "Suave camino, siempre correcto.",
+      "A la izquierda, a la derecha, recto,",
+      "Caminando, con respeto.",
+      "",
+      "Un sendero suave, un camino calmo,",
+      "Izquierda, derecha, todo en calma.",
+      "Recto sigue, poco a poco,",
+      "Suave el paso, nunca loco.",
+      "",
+      "A la izquierda, a la derecha, recto,",
+      "Suave camino, siempre correcto.",
+      "A la izquierda, a la derecha, recto,",
+      "Caminando, con respeto."
+    ]
   }
 }

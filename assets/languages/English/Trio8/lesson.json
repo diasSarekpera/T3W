@@ -30,6 +30,22 @@
   "song": {
     "title": "Good Morning Sun",
     "description": "Une chanson lumineuse pour commencer la journée avec douceur.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Good morning, good morning, good morning sun,",
+      "Rise up softly, a new day's begun.",
+      "Good morning, good morning, good morning sun,",
+      "Gentle light for everyone.",
+      "",
+      "The sky turns gold, the birds all sing,",
+      "Good morning brings a gentle thing.",
+      "Good morning sun, so warm, so bright,",
+      "Good morning to the fading night.",
+      "",
+      "Good morning, good morning, good morning sun,",
+      "Rise up softly, a new day's begun.",
+      "Good morning, good morning, good morning sun,",
+      "Gentle light for everyone."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Help Me Please",
     "description": "Une chanson douce pour apprendre à demander de l'aide avec courtoisie.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Help me, help me, help me please,",
+      "Softly asking, calm and slow.",
+      "Help me, help me, help me please,",
+      "Gentle hands will help me grow.",
+      "",
+      "A quiet voice, a gentle plea,",
+      "Help me please, just help me, please.",
+      "Help me, help me, hand in hand,",
+      "Together softly, we will stand.",
+      "",
+      "Help me, help me, help me please,",
+      "Softly asking, calm and slow.",
+      "Help me, help me, help me please,",
+      "Gentle hands will help me grow."
+    ]
   }
 }

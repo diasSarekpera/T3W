@@ -30,6 +30,22 @@
   "song": {
     "title": "Ayuda Me Por Favor",
     "description": "Une chanson douce pour apprendre à demander de l'aide avec courtoisie.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Ayúdame, ayúdame, por favor,",
+      "Suave y calma, con amor.",
+      "Ayúdame, ayúdame, por favor,",
+      "Juntos siempre, sin temor.",
+      "",
+      "Una voz suave, un pedido sincero,",
+      "Ayúdame un poco, así lo espero.",
+      "Ayuda, por favor, mano con mano,",
+      "Juntos suave, como un hermano.",
+      "",
+      "Ayúdame, ayúdame, por favor,",
+      "Suave y calma, con amor.",
+      "Ayúdame, ayúdame, por favor,",
+      "Juntos siempre, sin temor."
+    ]
   }
 }

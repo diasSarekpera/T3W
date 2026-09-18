@@ -30,6 +30,22 @@
   "song": {
     "title": "One Two Three",
     "description": "Une comptine simple pour mémoriser les premiers chiffres.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "One, two, three, so soft, so small,",
+      "Counting gently, one and all.",
+      "One, two, three, so soft, so small,",
+      "Softly rising, standing tall.",
+      "",
+      "One little star, two in the sky,",
+      "Three little wishes, floating by.",
+      "One, two, three, a gentle rhyme,",
+      "Counting softly, one more time.",
+      "",
+      "One, two, three, so soft, so small,",
+      "Counting gently, one and all.",
+      "One, two, three, so soft, so small,",
+      "Softly rising, standing tall."
+    ]
   }
 }

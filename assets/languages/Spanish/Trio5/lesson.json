@@ -30,6 +30,22 @@
   "song": {
     "title": "Comer Beber Agua",
     "description": "Une chanson agréable pour mémoriser des mots utiles au quotidien.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Comer un poco, beber agua,",
+      "Cosas suaves que me calman.",
+      "Comer un poco, beber agua,",
+      "Poco a poco, así se sana.",
+      "",
+      "Un vaso claro, fresco y puro,",
+      "Bebo agua, así aseguro.",
+      "Comer y beber, despacito,",
+      "Agua fresca, poquito a poquito.",
+      "",
+      "Comer un poco, beber agua,",
+      "Cosas suaves que me calman.",
+      "Comer un poco, beber agua,",
+      "Poco a poco, así se sana."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Thank You Smile",
     "description": "Une chanson chaleureuse pour apprendre à remercier avec le sourire.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Thank you, thank you, thank you for your smile,",
+      "Softly shining, mile after mile.",
+      "Thank you, thank you, thank you for your smile,",
+      "Gentle kindness, all the while.",
+      "",
+      "A little smile, a warm embrace,",
+      "Thank you softly, gentle grace.",
+      "Thank you, thank you, from my heart,",
+      "Your smile was there right from the start.",
+      "",
+      "Thank you, thank you, thank you for your smile,",
+      "Softly shining, mile after mile.",
+      "Thank you, thank you, thank you for your smile,",
+      "Gentle kindness, all the while."
+    ]
   }
 }

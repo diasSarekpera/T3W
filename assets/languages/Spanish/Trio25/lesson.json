@@ -30,6 +30,22 @@
   "song": {
     "title": "Por Qué Cómo Cuándo",
     "description": "Une chanson curieuse pour apprendre à poser des questions.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Por qué, por qué, y cómo, y cuándo,",
+      "Suave pregunto, siempre soñando.",
+      "Por qué, por qué, y cómo, y cuándo,",
+      "Gentiles preguntas, así, esperando.",
+      "",
+      "Una mente curiosa, una voz suave,",
+      "Preguntar por qué, nada grave.",
+      "Por qué y cómo y cuándo nos vemos,",
+      "Suave preguntamos, así lo haremos.",
+      "",
+      "Por qué, por qué, y cómo, y cuándo,",
+      "Suave pregunto, siempre soñando.",
+      "Por qué, por qué, y cómo, y cuándo,",
+      "Gentiles preguntas, así, esperando."
+    ]
   }
 }

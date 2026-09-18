@@ -30,6 +30,22 @@
   "song": {
     "title": "Leer Aprender Crecer",
     "description": "Une chanson inspirante sur le plaisir d'apprendre.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Leer un poco, aprender, crecer,",
+      "Cada día, un nuevo saber.",
+      "Leer un poco, aprender, crecer,",
+      "Suave y lento, hasta amanecer.",
+      "",
+      "Una página suave, una mente feliz,",
+      "Aprendiendo despacio, así, así.",
+      "Leer y aprender, un poco más,",
+      "Crecer despacito, siempre hacia adelante.",
+      "",
+      "Leer un poco, aprender, crecer,",
+      "Cada día, un nuevo saber.",
+      "Leer un poco, aprender, crecer,",
+      "Suave y lento, hasta amanecer."
+    ]
   }
 }

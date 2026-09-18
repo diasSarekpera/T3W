@@ -30,6 +30,22 @@
   "song": {
     "title": "Room Door Key",
     "description": "Une chanson simple pour parler de la maison.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A little room, a little door,",
+      "A little key, and nothing more.",
+      "A little room, a little door,",
+      "Softly opens, room for more.",
+      "",
+      "A quiet room, a wooden door,",
+      "A silver key upon the floor.",
+      "Room and door and key so small,",
+      "Softly opening, one and all.",
+      "",
+      "A little room, a little door,",
+      "A little key, and nothing more.",
+      "A little room, a little door,",
+      "Softly opens, room for more."
+    ]
   }
 }

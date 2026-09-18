@@ -30,6 +30,22 @@
   "song": {
     "title": "Viajar Ver Mundo",
     "description": "Une chanson qui donne envie de partir à l'aventure.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Quiero viajar, quiero ver el mundo,",
+      "Suave y calmo, en un segundo.",
+      "Quiero viajar, quiero ver el mundo,",
+      "Cada rincón, tan profundo.",
+      "",
+      "Una orilla lejana, un sol que nace,",
+      "Viajar suave, así renace.",
+      "Viajar y ver, todo el mundo entero,",
+      "Suave y calmo, viajero sincero.",
+      "",
+      "Quiero viajar, quiero ver el mundo,",
+      "Suave y calmo, en un segundo.",
+      "Quiero viajar, quiero ver el mundo,",
+      "Cada rincón, tan profundo."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Tired Sad Angry",
     "description": "Une chanson douce pour apprendre à nommer ce qu'on ressent.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A little tired, a little sad,",
+      "Sometimes angry, sometimes bad.",
+      "A little tired, a little sad,",
+      "It's okay, it's not so bad.",
+      "",
+      "A heavy heart, a quiet sigh,",
+      "Tired feelings passing by.",
+      "Sad and angry, soft and true,",
+      "These feelings too will carry through.",
+      "",
+      "A little tired, a little sad,",
+      "Sometimes angry, sometimes bad.",
+      "A little tired, a little sad,",
+      "It's okay, it's not so bad."
+    ]
   }
 }

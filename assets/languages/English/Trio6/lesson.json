@@ -30,6 +30,22 @@
   "song": {
     "title": "Read Learn Grow",
     "description": "Une chanson inspirante sur le plaisir d'apprendre et d'évoluer.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Read a little, learn and grow,",
+      "Every day a step ahead.",
+      "Read a little, learn and grow,",
+      "Softly, gently, on we tread.",
+      "",
+      "A quiet page, a curious mind,",
+      "Learning slowly, growing kind.",
+      "Read and learn, and grow some more,",
+      "Open up a gentle door.",
+      "",
+      "Read a little, learn and grow,",
+      "Every day a step ahead.",
+      "Read a little, learn and grow,",
+      "Softly, gently, on we tread."
+    ]
   }
 }

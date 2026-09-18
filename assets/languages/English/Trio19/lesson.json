@@ -30,6 +30,22 @@
   "song": {
     "title": "Work Study Time",
     "description": "Une chanson motivante sur le travail et l'apprentissage.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "A little work, a little time,",
+      "Study softly, gentle rhyme.",
+      "A little work, a little time,",
+      "Slowly steady, we will climb.",
+      "",
+      "A quiet desk, a steady hand,",
+      "Time to study, understand.",
+      "Work and study, hour by hour,",
+      "Time will bring a gentle power.",
+      "",
+      "A little work, a little time,",
+      "Study softly, gentle rhyme.",
+      "A little work, a little time,",
+      "Slowly steady, we will climb."
+    ]
   }
 }

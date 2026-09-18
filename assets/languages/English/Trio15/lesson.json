@@ -30,6 +30,22 @@
   "song": {
     "title": "Head Hand Foot",
     "description": "Une chanson enjouée pour nommer les parties du corps.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "My head, my hand, my little foot,",
+      "Softly moving, gentle root.",
+      "My head, my hand, my little foot,",
+      "Growing slowly, sweet and good.",
+      "",
+      "A gentle touch, a steady hand,",
+      "Head held high, and feet that stand.",
+      "My head, my hand, my foot so small,",
+      "Softly growing, standing tall.",
+      "",
+      "My head, my hand, my little foot,",
+      "Softly moving, gentle root.",
+      "My head, my hand, my little foot,",
+      "Growing slowly, sweet and good."
+    ]
   }
 }

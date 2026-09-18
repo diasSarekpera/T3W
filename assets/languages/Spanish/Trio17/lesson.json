@@ -30,6 +30,22 @@
   "song": {
     "title": "Coche Autobús Tren",
     "description": "Une chanson entraînante sur les transports du quotidien.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "El coche, el autobús, el tren,",
+      "Nos llevan suave, una y otra vez.",
+      "El coche, el autobús, el tren,",
+      "Suave camino, hasta el andén.",
+      "",
+      "Un camino calmo, un sonido lejano,",
+      "El tren avanza, suave y liviano.",
+      "Coche y autobús y tren tan suave,",
+      "Suave viajamos, nada grave.",
+      "",
+      "El coche, el autobús, el tren,",
+      "Nos llevan suave, una y otra vez.",
+      "El coche, el autobús, el tren,",
+      "Suave camino, hasta el andén."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Adiós Nos Vemos Pronto",
     "description": "Une chanson douce pour clore un apprentissage en beauté.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Adiós, adiós, nos vemos pronto,",
+      "Suave la voz, dulce y pronto.",
+      "Adiós, adiós, nos vemos pronto,",
+      "Bajo la misma luna, pronto.",
+      "",
+      "Un suave adiós, un cálido abrazo,",
+      "Nos vemos pronto, despacio, despacio.",
+      "Adiós, mi amigo, hasta la vuelta,",
+      "Nos vemos pronto, la puerta abierta.",
+      "",
+      "Adiós, adiós, nos vemos pronto,",
+      "Suave la voz, dulce y pronto.",
+      "Adiós, adiós, nos vemos pronto,",
+      "Bajo la misma luna, pronto."
+    ]
   }
 }

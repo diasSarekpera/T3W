@@ -30,6 +30,22 @@
   "song": {
     "title": "Cold Warm Outside",
     "description": "Une chanson légère pour parler de la météo du jour.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "It's cold, it's cold, it's cold outside,",
+      "But warm and safe here by your side.",
+      "It's cold, it's cold, it's cold outside,",
+      "Warm inside, we softly bide.",
+      "",
+      "The wind is cold, the fire is warm,",
+      "Outside the cold, inside no harm.",
+      "Cold outside, but warm we stay,",
+      "Softly through this winter day.",
+      "",
+      "It's cold, it's cold, it's cold outside,",
+      "But warm and safe here by your side.",
+      "It's cold, it's cold, it's cold outside,",
+      "Warm inside, we softly bide."
+    ]
   }
 }

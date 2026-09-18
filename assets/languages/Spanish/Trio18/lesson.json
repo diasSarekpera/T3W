@@ -30,6 +30,22 @@
   "song": {
     "title": "Cansado Triste Enojado",
     "description": "Une chanson douce pour apprendre à nommer ce qu'on ressent.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Un poco cansado, un poco triste,",
+      "A veces enojado, así existe.",
+      "Un poco cansado, un poco triste,",
+      "Está bien sentir, nada resiste.",
+      "",
+      "Un corazón pesado, un suspiro suave,",
+      "Cansado y triste, nada grave.",
+      "Triste y enojado, suave y real,",
+      "Estas emociones pasarán igual.",
+      "",
+      "Un poco cansado, un poco triste,",
+      "A veces enojado, así existe.",
+      "Un poco cansado, un poco triste,",
+      "Está bien sentir, nada resiste."
+    ]
   }
 }

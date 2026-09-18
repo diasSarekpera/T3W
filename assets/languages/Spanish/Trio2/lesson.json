@@ -30,6 +30,22 @@
   "song": {
     "title": "Yo Soy Diego",
     "description": "Une chanson simple pour apprendre à se présenter.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Yo soy, yo soy, yo soy Diego,",
+      "Con cariño te lo digo.",
+      "Yo soy, yo soy, yo soy Diego,",
+      "Mucho gusto, buen amigo.",
+      "",
+      "Una voz suave, un nombre nuevo,",
+      "Yo soy Diego, así me muevo.",
+      "Yo soy, yo soy, tan tranquilo,",
+      "Diego suave, dulce estilo.",
+      "",
+      "Yo soy, yo soy, yo soy Diego,",
+      "Con cariño te lo digo.",
+      "Yo soy, yo soy, yo soy Diego,",
+      "Mucho gusto, buen amigo."
+    ]
   }
 }

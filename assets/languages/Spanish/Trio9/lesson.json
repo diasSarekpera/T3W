@@ -30,6 +30,22 @@
   "song": {
     "title": "Gracias Tu Sonrisa",
     "description": "Une chanson chaleureuse pour apprendre à remercier.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Gracias, gracias, gracias por tu sonrisa,",
+      "Suave y dulce, sin prisa.",
+      "Gracias, gracias, gracias por tu sonrisa,",
+      "Cálida como una brisa.",
+      "",
+      "Una sonrisa suave, un cálido abrazo,",
+      "Gracias a ti, despacio, despacio.",
+      "Gracias, gracias, de corazón,",
+      "Tu sonrisa es mi canción.",
+      "",
+      "Gracias, gracias, gracias por tu sonrisa,",
+      "Suave y dulce, sin prisa.",
+      "Gracias, gracias, gracias por tu sonrisa,",
+      "Cálida como una brisa."
+    ]
   }
 }

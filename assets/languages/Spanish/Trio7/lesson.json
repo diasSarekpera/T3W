@@ -30,6 +30,22 @@
   "song": {
     "title": "Mi Familia Casa",
     "description": "Une chanson chaleureuse autour de la famille et du foyer.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Mi familia, mi familia, mi casa,",
+      "Cálida y suave, nunca se pasa.",
+      "Mi familia, mi familia, mi casa,",
+      "Aquí el corazón descansa.",
+      "",
+      "Un cuarto suave, una luz de vela,",
+      "Mi familia siempre vela.",
+      "Mi familia, mi casa querida,",
+      "Suave, cálida, toda mi vida.",
+      "",
+      "Mi familia, mi familia, mi casa,",
+      "Cálida y suave, nunca se pasa.",
+      "Mi familia, mi familia, mi casa,",
+      "Aquí el corazón descansa."
+    ]
   }
 }

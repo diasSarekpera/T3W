@@ -30,6 +30,22 @@
   "song": {
     "title": "Car Bus Train",
     "description": "Une chanson entraînante sur les transports du quotidien.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "The car, the bus, the gentle train,",
+      "Carry us through sun and rain.",
+      "The car, the bus, the gentle train,",
+      "Softly moving, home again.",
+      "",
+      "A quiet road, a distant sound,",
+      "Train wheels turning round and round.",
+      "Car and bus and train so slow,",
+      "Softly, gently, on we go.",
+      "",
+      "The car, the bus, the gentle train,",
+      "Carry us through sun and rain.",
+      "The car, the bus, the gentle train,",
+      "Softly moving, home again."
+    ]
   }
 }

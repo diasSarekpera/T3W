@@ -30,6 +30,22 @@
   "song": {
     "title": "Left Right Straight",
     "description": "Une chanson rythmée pour retenir les directions de base.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Turn left, turn right, then walk straight on,",
+      "Softly guiding, till the dawn.",
+      "Turn left, turn right, then walk straight on,",
+      "Gently now, we won't be gone.",
+      "",
+      "A quiet path, a gentle way,",
+      "Left and right, then straight all day.",
+      "Turn left, turn right, so soft, so slow,",
+      "Straight ahead is where we go.",
+      "",
+      "Turn left, turn right, then walk straight on,",
+      "Softly guiding, till the dawn.",
+      "Turn left, turn right, then walk straight on,",
+      "Gently now, we won't be gone."
+    ]
   }
 }

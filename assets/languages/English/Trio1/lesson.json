@@ -30,6 +30,22 @@
   "song": {
     "title": "Hello Friend Today",
     "description": "Une chanson douce pour mémoriser naturellement les trois mots du trio.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Hello, hello, hello my friend,",
+      "Good morning light, a brand-new day.",
+      "Hello, hello, come take my hand,",
+      "Today we'll walk the gentle way.",
+      "",
+      "The sun is up, the sky is clear,",
+      "Today is bright, today is here.",
+      "Hello, hello, my dearest friend,",
+      "This lovely day will never end.",
+      "",
+      "Hello, hello, hello my friend,",
+      "Good morning light, a brand-new day.",
+      "Hello, hello, come take my hand,",
+      "Today we'll walk the gentle way."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Me Gusta Música",
     "description": "Une chanson douce pour mémoriser une expression très utilisée en espagnol.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Me gusta, me gusta la música,",
+      "Suave y dulce, nunca se apura.",
+      "Me gusta, me gusta la música,",
+      "Canta bajito, con ternura.",
+      "",
+      "Una nota suave, un dulce son,",
+      "Me gusta tanto esta canción.",
+      "Me gusta, me gusta, sin parar,",
+      "La música me hace soñar.",
+      "",
+      "Me gusta, me gusta la música,",
+      "Suave y dulce, nunca se apura.",
+      "Me gusta, me gusta la música,",
+      "Canta bajito, con ternura."
+    ]
   }
 }

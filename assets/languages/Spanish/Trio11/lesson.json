@@ -30,6 +30,22 @@
   "song": {
     "title": "Frío Calor Afuera",
     "description": "Une chanson légère pour parler de la météo du jour.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Hace frío, frío afuera,",
+      "Pero calor aquí te espera.",
+      "Hace frío, frío afuera,",
+      "Cálido adentro, de cualquier manera.",
+      "",
+      "El viento frío, el fuego calienta,",
+      "Afuera el frío, adentro se ausenta.",
+      "Frío afuera, calor interior,",
+      "Suave y cálido, con amor.",
+      "",
+      "Hace frío, frío afuera,",
+      "Pero calor aquí te espera.",
+      "Hace frío, frío afuera,",
+      "Cálido adentro, de cualquier manera."
+    ]
   }
 }

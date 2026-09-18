@@ -30,6 +30,22 @@
   "song": {
     "title": "Teléfono Mensaje Internet",
     "description": "Une chanson moderne sur nos habitudes numériques.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Un teléfono, un mensaje suave,",
+      "Enviado lejos, nada grave.",
+      "Un teléfono, un mensaje suave,",
+      "Internet nos lleva, suave nave.",
+      "",
+      "Un suave brillo, una pantalla que enciende,",
+      "Un mensaje enviado, y se extiende.",
+      "Teléfono y mensaje, suave y ligero,",
+      "Internet nos une, de día y de lucero.",
+      "",
+      "Un teléfono, un mensaje suave,",
+      "Enviado lejos, nada grave.",
+      "Un teléfono, un mensaje suave,",
+      "Internet nos lleva, suave nave."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Jugar Deporte Diversión",
     "description": "Une chanson énergique pour parler du sport et du jeu.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Vamos a jugar, un poco de deporte,",
+      "Suave corriendo, hasta el horizonte.",
+      "Vamos a jugar, un poco de deporte,",
+      "Bajo el sol suave, sin reporte.",
+      "",
+      "Un balón que rueda, un sonido alegre,",
+      "Jugando suave, nada que quiebre.",
+      "Deporte y diversión, tan libre, tan suave,",
+      "Ven a jugar, un rato, no es grave.",
+      "",
+      "Vamos a jugar, un poco de deporte,",
+      "Suave corriendo, hasta el horizonte.",
+      "Vamos a jugar, un poco de deporte,",
+      "Bajo el sol suave, sin reporte."
+    ]
   }
 }

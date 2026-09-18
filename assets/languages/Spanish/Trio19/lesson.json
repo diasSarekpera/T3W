@@ -30,6 +30,22 @@
   "song": {
     "title": "Trabajo Estudiar Tiempo",
     "description": "Une chanson motivante sur le travail et l'apprentissage.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Un poco de trabajo, un poco de tiempo,",
+      "Estudiar suave, sin apremio.",
+      "Un poco de trabajo, un poco de tiempo,",
+      "Suave y calmo, en este intento.",
+      "",
+      "Un escritorio suave, una mano firme,",
+      "Tiempo de estudiar, sin que se esfume.",
+      "Trabajo y estudio, hora tras hora,",
+      "El tiempo suave, suave la aurora.",
+      "",
+      "Un poco de trabajo, un poco de tiempo,",
+      "Estudiar suave, sin apremio.",
+      "Un poco de trabajo, un poco de tiempo,",
+      "Suave y calmo, en este intento."
+    ]
   }
 }

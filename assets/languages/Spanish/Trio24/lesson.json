@@ -30,6 +30,22 @@
   "song": {
     "title": "Mejor Más Menos",
     "description": "Une chanson légère pour apprendre à comparer.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Un poco mejor, más o menos,",
+      "Suave aprendiendo, sin truenos.",
+      "Un poco mejor, más o menos,",
+      "Eligiendo suave, entre buenos.",
+      "",
+      "Este es mejor, aquel es menos,",
+      "Más o mejor, entre terrenos.",
+      "Mejor, más, menos, mi amigo,",
+      "Suave elegimos, aquí contigo.",
+      "",
+      "Un poco mejor, más o menos,",
+      "Suave aprendiendo, sin truenos.",
+      "Un poco mejor, más o menos,",
+      "Eligiendo suave, entre buenos."
+    ]
   }
 }

@@ -30,6 +30,22 @@
   "song": {
     "title": "Yo Pienso Quizás",
     "description": "Une chanson posée pour apprendre à nuancer une opinion.",
-    "audio": "audio/song.mp3"
+    "audio": "audio/song.mp3",
+    "lyrics": [
+      "Yo pienso, quizás, yo pienso, quizás,",
+      "Suave pensando, un poco más.",
+      "Yo pienso, quizás, yo pienso, quizás,",
+      "Suaves ideas, nunca se van.",
+      "",
+      "Un suave pensar, un quizás sincero,",
+      "Pienso tal vez, así lo espero.",
+      "Yo pienso, quizás, suave y lento,",
+      "Estas ideas van y vienen al viento.",
+      "",
+      "Yo pienso, quizás, yo pienso, quizás,",
+      "Suave pensando, un poco más.",
+      "Yo pienso, quizás, yo pienso, quizás,",
+      "Suaves ideas, nunca se van."
+    ]
   }
 }
